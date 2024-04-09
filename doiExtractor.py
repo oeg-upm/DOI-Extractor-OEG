@@ -5,14 +5,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import urllib.parse
 import requests
+import csv
 
 
-# Función para extraer los DOI de una página
-def extraer_doi(url_pagina, archivo_salida):
+# Función para extraer los DOI
+def extraer_doi(url_pagina, archivo_csv):
     # Realizar la solicitud GET a la URL
     response = requests.get(url_pagina)
 
-    # Verificar si la solicitud fue exitosa (código de estado 200)
     if response.status_code == 200:
         # Extraer el contenido HTML de la respuesta
         html_doc = response.text
@@ -30,24 +30,28 @@ def extraer_doi(url_pagina, archivo_salida):
             if doi_text:
                 # Extraer el DOI
                 doi = doi_text.find_next_sibling(string=True).strip()
-                # Guardar el DOI en el archivo de salida
-                archivo_salida.write(doi + '\n')
+                # Escribir la URL y el DOI en el archivo CSV
+                archivo_csv.writerow([url_pagina, doi])
     else:
         print("Error al cargar la página:", response.status_code)
 
     
-# Inicializar el navegador 
 driver = webdriver.Chrome()
 
 # URL de la página con el botón "Publicaciones"
 url = "https://portalcientifico.upm.es/es/ipublic/entity/16247#14"
 
+# URL para concatenar las publicaciones encontradas
 url_docs = "https://portalcientifico.upm.es/es/ipublic/entity/16247"
 
 # Cargar la página
 driver.get(url)
 
-with open("dois.txt", "w") as archivo_salida:
+with open("dois.csv", "w", newline='', encoding='utf-8') as archivo_csv:
+
+    csv_writer = csv.writer(archivo_csv)
+    csv_writer.writerow(["URL", "DOI"])
+
     try:
         
         # Esperar a que el botón "Publicaciones" esté presente y sea clickeable
@@ -76,7 +80,7 @@ with open("dois.txt", "w") as archivo_salida:
                 for enlace in enlaces:
                     fragmento_enlace = enlace["href"]
                     url_completa = urllib.parse.urljoin(url_docs, fragmento_enlace)
-                    extraer_doi(url_completa, archivo_salida)
+                    extraer_doi(url_completa, csv_writer)
 
             # Buscar y hacer clic en el botón "Siguiente"
             boton_siguiente = driver.find_element(By.XPATH, "//a[contains(text(), 'Siguiente')]")
