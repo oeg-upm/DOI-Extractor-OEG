@@ -1,9 +1,17 @@
 # DOI-Extractor-OEG
 
 
-Tool for extracting all DOIs from OEG publications:
+### Tool for extracting all paper's name and DOI from OEG publications.
+<br>
+They are extracted from two main resources:
 
-https://portalcientifico.upm.es/es/ipublic/entity/16247#14
+1) https://portalcientifico.upm.es/es/ipublic/entity/16247 , corresponding to all papers from OEG.
 
+2) Papers.csv with already extracted data from some OEG papers, which is located in the folder ExistingPapers.
 
-At 9/04/2024 there is a total of 581 publications, only 366 with doi (62.99%)
+<br>
+The resulting information is placed in Outputs folder, which include:
+
+- A dois.txt containing all the dois from the two resources
+
+- A name-doi.csv, containing the title and the doi of every paper found
