@@ -1,7 +1,9 @@
 import requests
 import csv
+from urllib.parse import urlparse
 
-def get_primary_location(name):
+
+def get_primary_location(name, include_doi=False):
     search_url = "https://api.openalex.org/works?search="
     query_url = search_url + name
 
@@ -13,16 +15,30 @@ def get_primary_location(name):
             if primary_location:
                 landing_page_url = primary_location.get("landing_page_url")
                 pdf_url = primary_location.get("pdf_url")
-                # Check if either landing_page_url is a .pdf
+
+                #If doi is not in the csv, search for it in OpenAlex
+                if include_doi:
+                    doi_full = data["results"][0].get("doi")
+                    if doi_full is not None:
+                        parsed_url = urlparse(doi_full) if doi_full else None
+                        if parsed_url.path:
+                            doi = parsed_url.path.strip("/")  # Extract the DOI number from the DOI URL
+                        else:
+                            doi = None
+                    else:
+                        doi = None
+                else:
+                    doi = None
+                
+                # Check if either landing_page_url or pdf_url ends with ".pdf"
                 if landing_page_url and landing_page_url.endswith(".pdf"):
-                    return landing_page_url
-                # Check if there is a URL to a pdf
-                elif pdf_url is not None and pdf_url != "null":
-                    return pdf_url
-                # If there is not a .pdf or a link to a .pdf, return the landing_page
+                    return landing_page_url, doi
+                elif pdf_url and pdf_url.endswith(".pdf"):
+                    return pdf_url, doi
                 elif landing_page_url:
-                    return landing_page_url
-    return None
+                    return landing_page_url, doi
+    return None, None
+
 
 
 def add_primary_location_to_csv(csv_filename):
@@ -31,14 +47,25 @@ def add_primary_location_to_csv(csv_filename):
         rows = list(reader)
 
     for row in rows:
-        name = row["NAME"] 
-        page_url = get_primary_location(name)
+        name = row["NAME"]
+        doi = row["DOI"] 
+
+        # If doi is None, add the doi founded in OpenAlex
+        if doi == "None":
+            page_url, found_doi = get_primary_location(name, include_doi=True)
+            if found_doi:
+                row["DOI"] = found_doi
+                print(f"Searching in OpenAlex for DOI of {name}: {found_doi}")
+        else:
+            page_url = get_primary_location(name)
+        
         if page_url:
-            row["PRIMARY_LOCATION"] = page_url
-            print(f"Searching in OpenAlex for {name}: {page_url}")
+            row["PRIMARY_LOCATION"] = page_url[0]
+            print(f"Searching in OpenAlex for {name} \nFounded link:{page_url[0]}")
         else:
             row["PRIMARY_LOCATION"] = "None"
             print(f"Searching in OpenAlex for {name}: No primary location")
+        print("-----------------------------------------------------------------")
 
     new_columns = list(rows[0].keys())  
     if "PRIMARY_LOCATION" not in new_columns: 
