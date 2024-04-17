@@ -1,6 +1,8 @@
 from doiExtractor import search_papers, merge_csv, remove_duplicates
+from openAlex import add_primary_location_to_csv
 import argparse
 import logging
+import os
 
 from doiExtractor import search_papers, merge_csv
 
@@ -27,6 +29,12 @@ def main():
         logging.info("DOI Extractor Tool started")
         logging.info(f"Search in: {url}, Output csv: {csv_filename}, Output txt: {txt_filename}")
 
+        # Delete contents of the files
+        if os.path.exists(csv_filename):
+            open(csv_filename, 'w').close()
+        if os.path.exists(txt_filename):
+            open(txt_filename, 'w').close()
+
         # Extract dois from url
         search_papers(url, url_docs, csv_filename, txt_filename)
 
@@ -35,6 +43,9 @@ def main():
 
         # Check for duplicated dois after the merge
         remove_duplicates(txt_filename, csv_filename)
+
+        # Add URLs from OpenAlex
+        add_primary_location_to_csv(csv_filename)
 
         logging.info(f"Data saved to {csv_filename} and {txt_filename}")
     else:

@@ -17,7 +17,7 @@ The resulting information is placed in Outputs folder, which include:
 
 - A dois.txt containing all the dois from the two resources
 
-- A name-doi.csv, containing the title and the doi of every paper found
+- A name-doi.csv, containing the title and the doi of every paper found, in addition to OpenAlex primary location attribute
 
 ## Project Structure
 ```
@@ -32,18 +32,21 @@ DOI-Extractor-OEG
 ├───doiExtractor.py
 ├───LICENSE.txt
 ├───main.py
+├───openAlex.py
 ├───README.MD
 └───setup.py
 ```
 
-```doiExtractor.py``` - Contains the functions to extract data from the NBA website
+```doiExtractor.py``` - Contains the functions to extract the name and doi from portalcientifico.upm.es
+
+```openAlex.py``` - Contains the functions to extract the primary location from openAlex
 
 ## Installation
 
 1. Clone the repository:
 ```git clone https://github.com/ptorija/DOI-Extractor-OEG.git```
 
-2. Change to the NbaSeasonStats directory:
+2. Change to the DOI-Extractor-OEG directory:
 ```cd DOI-Extractor-OEG```
 
 3. Create a virtual environment:
@@ -52,7 +55,7 @@ DOI-Extractor-OEG
 4. Activate the virtual environment:
 ```source .env/bin/activate``` (Linux) or ```.env\Scripts\activate``` (Windows)
 
-5. Install the package dependencies (Selenium, Matplotlib, Pandas):
+5. Install the package dependencies:
 ```pip install -e .```
 
 ## Usage
