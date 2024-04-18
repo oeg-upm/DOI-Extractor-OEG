@@ -179,7 +179,7 @@ def create_txt_with_dois(csv_filename, txt_filename):
         reader = csv.DictReader(file)
         for row in reader:
             doi = row.get("DOI")
-            if doi:
+            if doi and doi!= 'None':
                 dois.append(doi)
 
     with open(txt_filename, mode='w', encoding='utf-8') as file:
