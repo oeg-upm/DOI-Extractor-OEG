@@ -1,5 +1,5 @@
-from doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt_with_dois
-from openAlex import add_primary_location_to_csv
+from doiExtractor import search_papers, merge_csv, remove_duplicates
+from openAlex import add_primary_location_to_csv, create_txt_with_dois
 import argparse
 import logging
 import os

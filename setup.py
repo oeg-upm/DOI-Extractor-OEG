@@ -7,7 +7,8 @@ setup(
     install_requires=[
         "beautifulsoup4",
         "selenium",
-        "requests"
+        "requests",
+        "pandas"
     ],
     entry_points={
         "console_scripts": [

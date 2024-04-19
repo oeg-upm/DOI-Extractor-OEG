@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import pandas as pd
 import urllib.parse
 import requests
 import csv
@@ -40,6 +41,8 @@ def extract_doi(url_pagina, csv_file):
                 if next_sibling and next_sibling.strip():
                     # Extract DOI
                     doi = next_sibling.strip()
+                    if doi.startswith('https://doi.org/'):
+                        doi = doi[len('https://doi.org/'):]  # Remove "https://doi.org/" from the beginning if present
                     # Write the resulting DOI to the CSV file
                     csv_file.writerow([title, doi])
                     doi_found = True
@@ -142,47 +145,12 @@ def search_papers(url, url_docs, csv_filename):
 
 
 def remove_duplicates(csv_file):
-    duplicates_csv = 0
-    dois_set_csv = set()
-    unique_rows = []
+    df = pd.read_csv(csv_file)
+    
+    # Drop duplicate rows based on the specified column
+    df.drop_duplicates(subset=['NAME'], keep='first', inplace=True)
+    
+    # Write the modified DataFrame back to the CSV file
+    df.to_csv(csv_file, index=False)
 
-    # Read the CSV file and remove duplicate rows
-    with open(csv_file, "r", newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        fieldnames = reader.fieldnames
-
-        for row in reader:
-            doi = row.get('DOI')  # Get the DOI from the row
-            if doi == 'None':
-                unique_rows.append(row)  # Add row to list if DOI is None
-            elif doi not in dois_set_csv:
-                dois_set_csv.add(doi)  # Add DOI to set
-                unique_rows.append(row)  # Add row to list if DOI is unique
-            else:
-                duplicates_csv += 1  # Increment counter for duplicate DOIs
-
-    # Rewrite the CSV file with only unique rows
-    with open(csv_file, "w", newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(unique_rows)
-
-        if (duplicates_csv > 0):
-            print(f"{duplicates_csv} duplicates removed from doi_name.csv successfully.")
-        else:
-            print("No duplicates found in doi_name.csv.")
-
-
-def create_txt_with_dois(csv_filename, txt_filename):
-    dois = []
-    with open(csv_filename, mode='r', newline='', encoding='utf-8') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            doi = row.get("DOI")
-            if doi and doi!= 'None':
-                dois.append(doi)
-
-    with open(txt_filename, mode='w', encoding='utf-8') as file:
-        for doi in dois:
-            file.write(doi + "\n")
             
