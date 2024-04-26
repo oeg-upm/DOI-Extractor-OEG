@@ -1,3 +1,6 @@
 .env
 DataExtractorOEG.egg-info/
 __pycache__/
+.pypirc
+.dist/
+.build/

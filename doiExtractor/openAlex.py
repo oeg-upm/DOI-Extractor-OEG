@@ -13,17 +13,6 @@ def get_primary_location_by_doi(name, doi):
             if primary_location:
                 landing_page_url = primary_location.get("landing_page_url")
                 pdf_url = primary_location.get("pdf_url")
-
-                #If doi is not in the csv, search for it in OpenAlex
-                doi_full = data.get("doi")
-                if doi_full is not None:
-                    parsed_url = urlparse(doi_full) if doi_full else None
-                    if parsed_url.path:
-                        doi = parsed_url.path.strip("/")  # Extract the DOI number from the DOI URL
-                    else:
-                        doi = None
-                else:
-                    doi = None
                 
                 # Check if either landing_page_url or pdf_url ends with ".pdf"
                 if landing_page_url and landing_page_url.endswith(".pdf"):
@@ -73,7 +62,6 @@ def get_primary_location_by_title(name, doi, include_doi=False):
     return None, None
 
 
-
 def add_primary_location_to_csv(csv_filename):
     with open(csv_filename, mode='r', newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
@@ -110,16 +98,36 @@ def add_primary_location_to_csv(csv_filename):
         writer.writerows(rows)
 
 
-def create_txt_with_dois(csv_filename, txt_filename):
-    dois = []
+def create_txt(csv_filename, txt_filename):
+    print("\nCreating the .txt with the .pdf or doi\n")
     with open(csv_filename, mode='r', newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
-        for row in reader:
-            doi = row.get("DOI")
-            if doi and doi!= 'None':
-                if doi.startswith('10'):
-                    dois.append(doi)
-
-    with open(txt_filename, mode='w', encoding='utf-8') as file:
-        for doi in dois:
-            file.write(doi + "\n")
+        with open(txt_filename, mode='w', encoding='utf-8') as output_file:
+            for row in reader:
+                name = row.get("NAME")
+                doi = row.get("DOI")
+                primary_location = row.get("PRIMARY_LOCATION")
+                if primary_location != "":
+                    try:
+                        response = requests.head(primary_location, allow_redirects=True)
+                        final_url = response.url
+                        parsed_url = urlparse(final_url)
+                        if parsed_url.path.endswith('.pdf'):
+                            output_file.write(primary_location + "\n")
+                            print(f"Found pdf for {name}: {primary_location}")
+                            print("-----------------------------------------------------------------")
+                            continue
+                        else:
+                            if doi != "" and doi.startswith('10'):
+                                output_file.write(doi + "\n")
+                                print(f"No pdf found for {name}, wrote DOI instead: {doi}")
+                            else:
+                                print(f"No pdf or DOI found for {name}")
+                    except requests.RequestException:
+                        pass
+                elif doi != "" and doi.startswith('10'):
+                    output_file.write(doi + "\n")
+                    print(f"No pdf found for {name}, wrote DOI instead: {doi}")
+                else:
+                    print(f"No pdf or DOI found for {name}")
+                print("-----------------------------------------------------------------")
