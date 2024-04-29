@@ -152,3 +152,43 @@ def merge_csv(csv1, csv2):
                 doi = row[1]
                 if doi not in existing_dois:
                     csv_writer.writerow(row)
+
+
+def create_txt(csv_filename, txt_filename):
+    print("\nCreating the .txt with the .pdf or doi\n")
+    with open(csv_filename, mode='r', newline='', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        with open(txt_filename, mode='w', encoding='utf-8') as output_file:
+            for row in reader:
+                name = row.get("NAME")
+                doi = row.get("DOI")
+                primary_location = row.get("PRIMARY_LOCATION")
+                if primary_location != "":
+                    try:
+                        response = requests.head(primary_location, allow_redirects=True)
+                        final_url = response.url
+                        parsed_url = urllib.parse.urlparse(final_url)
+                        if parsed_url.path.endswith('.pdf'):
+                            output_file.write(primary_location + "\n")
+                            print(f"Found pdf for {name}: {primary_location}")
+                            print("-----------------------------------------------------------------")
+                            continue
+                        else:
+                            if doi != "" and doi.startswith('10'):
+                                output_file.write(doi + "\n")
+                                print(f"No pdf found for {name}, wrote DOI instead: {doi}")
+                            else:
+                                print(f"No pdf or DOI found for {name}")
+                    except requests.RequestException:
+                        pass
+                elif doi != "" and doi.startswith('10'):
+                    output_file.write(doi + "\n")
+                    print(f"No pdf found for {name}, wrote DOI instead: {doi}")
+                else:
+                    print(f"No pdf or DOI found for {name}")
+                print("-----------------------------------------------------------------")
+
+
+def csv_to_json(csv_file, json_file):
+    df = pd.read_csv(csv_file)
+    df.to_json(json_file, orient='records', indent=4)

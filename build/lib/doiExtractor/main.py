@@ -47,7 +47,7 @@ def cli():
         # Add URLs from OpenAlex
         add_primary_location_to_csv(csv_filename)
 
-        #After adding missing dois with OpenAlex, create the .txt file containing all the dois
+        # After adding missing dois with OpenAlex, create the .txt file containing the .pdf if it was found or the DOI if it wasn't
         create_txt(csv_filename, txt_filename)
 
         logging.info(f"Data saved to {csv_filename} and {txt_filename}")

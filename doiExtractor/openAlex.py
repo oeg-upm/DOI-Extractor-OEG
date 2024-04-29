@@ -97,37 +97,3 @@ def add_primary_location_to_csv(csv_filename):
         writer.writeheader()
         writer.writerows(rows)
 
-
-def create_txt(csv_filename, txt_filename):
-    print("\nCreating the .txt with the .pdf or doi\n")
-    with open(csv_filename, mode='r', newline='', encoding='utf-8') as file:
-        reader = csv.DictReader(file)
-        with open(txt_filename, mode='w', encoding='utf-8') as output_file:
-            for row in reader:
-                name = row.get("NAME")
-                doi = row.get("DOI")
-                primary_location = row.get("PRIMARY_LOCATION")
-                if primary_location != "":
-                    try:
-                        response = requests.head(primary_location, allow_redirects=True)
-                        final_url = response.url
-                        parsed_url = urlparse(final_url)
-                        if parsed_url.path.endswith('.pdf'):
-                            output_file.write(primary_location + "\n")
-                            print(f"Found pdf for {name}: {primary_location}")
-                            print("-----------------------------------------------------------------")
-                            continue
-                        else:
-                            if doi != "" and doi.startswith('10'):
-                                output_file.write(doi + "\n")
-                                print(f"No pdf found for {name}, wrote DOI instead: {doi}")
-                            else:
-                                print(f"No pdf or DOI found for {name}")
-                    except requests.RequestException:
-                        pass
-                elif doi != "" and doi.startswith('10'):
-                    output_file.write(doi + "\n")
-                    print(f"No pdf found for {name}, wrote DOI instead: {doi}")
-                else:
-                    print(f"No pdf or DOI found for {name}")
-                print("-----------------------------------------------------------------")

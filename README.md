@@ -15,9 +15,11 @@ They are extracted from two main resources:
 <br>
 The resulting information is placed in Outputs folder, which include:
 
-- A dois.txt containing, for each paper, the pdf if it was founded or if not the doi
+- A dois.txt containing, for each paper, the URL to the pdf if it was founded or if not the doi
 
-- A name-doi.csv, containing the title and the doi of every paper found, in addition to OpenAlex primary location attribute
+- A results.csv, containing the title and the doi of every paper found, in addition to OpenAlex primary location attribute
+
+- A results.json, containing the same information as results.csv but in a json formal
 
 ## Project Structure
 ```
@@ -28,7 +30,8 @@ DOI-Extractor-OEG
 |   |   └───Papers.csv
 |   ├───Outputs
 |   |   ├───dois.csv
-|   |   └───name_doi.csv
+|   |   |───results.csv
+|   |   └───results.json
 |   ├───__init__.py
 |   ├───doiExtractor.py
 |   ├───main.py
