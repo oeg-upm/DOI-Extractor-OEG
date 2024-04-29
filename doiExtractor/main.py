@@ -1,8 +1,11 @@
+from doiExtractor.doiExtractor import search_papers, merge_csv, remove_duplicates, csv_to_json, create_txt
+from doiExtractor.openAlex import add_primary_location_to_csv
 from doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt, csv_to_json
 from openAlex import add_primary_location_to_csv
 import argparse
 import logging
 import os
+from doiExtractor.doiExtractor import search_papers, merge_csv
 
 logging.basicConfig(level=logging.INFO)
 
