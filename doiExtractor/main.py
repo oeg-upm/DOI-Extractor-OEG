@@ -1,10 +1,8 @@
-from doiExtractor.doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt, csv_to_json
-from doiExtractor.openAlex import add_primary_location_to_csv
+from doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt, csv_to_json
+from openAlex import add_primary_location_to_csv
 import argparse
 import logging
 import os
-
-from doiExtractor.doiExtractor import search_papers, merge_csv
 
 logging.basicConfig(level=logging.INFO)
 
@@ -23,6 +21,8 @@ def cli():
         txt_filename = args.output + "/dois.txt"
         csv_filename = args.output + "/results.csv"
         json_filename = args.output + "/results.json"
+
+        os.makedirs(args.output, exist_ok=True)
 
         # ExistingPapers
         papers = "doiExtractor/ExistingPapers/name_doi_papers.csv"

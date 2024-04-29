@@ -1,10 +1,8 @@
-from doiExtractor.doiExtractor import search_papers, merge_csv, remove_duplicates
-from doiExtractor.openAlex import add_primary_location_to_csv, create_txt
+from doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt, csv_to_json
+from openAlex import add_primary_location_to_csv
 import argparse
 import logging
 import os
-
-from doiExtractor.doiExtractor import search_papers, merge_csv
 
 logging.basicConfig(level=logging.INFO)
 
@@ -20,8 +18,11 @@ def cli():
         url_docs = args.url
 
         # Files to write the output
-        csv_filename = args.output + "/name_doi.csv"
         txt_filename = args.output + "/dois.txt"
+        csv_filename = args.output + "/results.csv"
+        json_filename = args.output + "/results.json"
+
+        os.makedirs(args.output, exist_ok=True)
 
         # ExistingPapers
         papers = "doiExtractor/ExistingPapers/name_doi_papers.csv"
@@ -49,6 +50,9 @@ def cli():
 
         # After adding missing dois with OpenAlex, create the .txt file containing the .pdf if it was found or the DOI if it wasn't
         create_txt(csv_filename, txt_filename)
+
+        # Create a JSON with the information extracted
+        csv_to_json(csv_filename, json_filename)
 
         logging.info(f"Data saved to {csv_filename} and {txt_filename}")
     else:

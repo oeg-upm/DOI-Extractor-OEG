@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="DataExtractorOEG",
-    version="0.3.3",
+    version="0.3.4",
     packages=find_packages(),
     install_requires=[
         "beautifulsoup4",
