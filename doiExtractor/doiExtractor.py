@@ -7,6 +7,8 @@ import pandas as pd
 import urllib.parse
 import requests
 import csv
+import os
+
 
 
 # Function to extract the DOI
@@ -63,7 +65,7 @@ def search_papers(url, url_docs, csv_filename):
     driver.get(url)
 
     with open(csv_filename, "w", newline='', encoding='utf-8') as csv_file:
-        csv_writer = csv.writer(csv_file)
+        csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
         csv_writer.writerow(["NAME", "DOI"])
 
         total_publications = 0
@@ -122,20 +124,20 @@ def search_papers(url, url_docs, csv_filename):
 
 
 def remove_duplicates(csv_file):
-    df = pd.read_csv(csv_file)
+    df = pd.read_csv(csv_file, quoting=csv.QUOTE_ALL)
     
     # Drop duplicate rows based on the specified column
     df.drop_duplicates(subset=['NAME'], keep='first', inplace=True)
     
     # Write the modified DataFrame back to the CSV file
-    df.to_csv(csv_file, index=False)
+    df.to_csv(csv_file, index=False, quoting=csv.QUOTE_ALL)
 
 
 # Function to merge two CSV files
 def merge_csv(csv1, csv2):
     existing_dois = set()
 
-    # Collect DOIs from name-doi.csv
+    # Collect DOIs from results.csv
     with open(csv1, 'r', newline='', encoding='utf-8') as existing_file:
         reader = csv.reader(existing_file)
         next(reader)  # Skip header row
@@ -147,7 +149,7 @@ def merge_csv(csv1, csv2):
         reader = csv.reader(papers_file)
         next(reader)  # Skip header row
         with open(csv1, 'a', newline='', encoding='utf-8') as existing_csv_file:
-            csv_writer = csv.writer(existing_csv_file)
+            csv_writer = csv.writer(existing_csv_file, quoting=csv.QUOTE_ALL)
             for row in reader:
                 doi = row[1]
                 if doi not in existing_dois:
@@ -192,3 +194,10 @@ def create_txt(csv_filename, txt_filename):
 def csv_to_json(csv_file, json_file):
     df = pd.read_csv(csv_file)
     df.to_json(json_file, orient='records', indent=4)
+
+
+def find_file_by_name(path, name):
+    for root, dirs, files in os.walk(path):
+        if name in files:
+            print(f"Found existing papers")
+            return os.path.join(root, name)

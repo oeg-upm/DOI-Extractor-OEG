@@ -93,7 +93,6 @@ def add_primary_location_to_csv(csv_filename):
         new_columns.append("PRIMARY_LOCATION")
 
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=new_columns)
+        writer = csv.DictWriter(file, quoting=csv.QUOTE_ALL, fieldnames=new_columns)
         writer.writeheader()
         writer.writerows(rows)
-

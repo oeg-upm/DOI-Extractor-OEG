@@ -1,5 +1,5 @@
-from doiExtractor import search_papers, merge_csv, remove_duplicates, create_txt, csv_to_json
-from openAlex import add_primary_location_to_csv
+from doiExtractor.doiExtractor import search_papers, merge_csv, remove_duplicates, csv_to_json, create_txt, find_file_by_name
+from doiExtractor.openAlex import add_primary_location_to_csv
 import argparse
 import logging
 import os
@@ -25,7 +25,7 @@ def cli():
         os.makedirs(args.output, exist_ok=True)
 
         # ExistingPapers
-        papers = "doiExtractor/ExistingPapers/name_doi_papers.csv"
+        papers = find_file_by_name(os.getcwd(),"name_doi_papers.csv")
 
         logging.info("DOI Extractor Tool started")
         logging.info(f"Search in: {url}, Output csv: {csv_filename}, Output txt: {txt_filename}")
@@ -35,6 +35,8 @@ def cli():
             open(csv_filename, 'w').close()
         if os.path.exists(txt_filename):
             open(txt_filename, 'w').close()
+        if os.path.exists(json_filename):
+            open(json_filename, 'w').close()
 
         # Extract dois from url
         search_papers(url, url_docs, csv_filename)
