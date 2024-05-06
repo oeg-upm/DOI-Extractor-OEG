@@ -9,8 +9,6 @@ import requests
 import csv
 import os
 
-
-
 # Function to extract the DOI
 def extract_doi(url_pagina, csv_file):
     response = requests.get(url_pagina)
@@ -201,5 +199,3 @@ def find_file_by_name(path, name):
         if name in files:
             print(f"Found existing papers")
             return os.path.join(root, name)
-        
-csv_to_json("doiExtractor/Outputs/results.csv", "doiExtractor/Outputs/results.json")
