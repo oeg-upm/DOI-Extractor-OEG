@@ -72,15 +72,15 @@ def add_primary_location_to_csv(csv_filename):
         doi = row["DOI"] 
 
         # If doi is None, add the doi founded in OpenAlex
-        if doi == "None":
+        if doi == "":
             page_url = get_primary_location_by_title(name, doi, include_doi=True)
-            if page_url:
+            if page_url[1] is not None:
                 row["DOI"] = page_url[1]
                 print(f"Searching in OpenAlex for DOI of {name}: {page_url[1]}")
         else:
             page_url = get_primary_location_by_doi(name, doi)
         
-        if page_url is not None:
+        if page_url[0] is not None:
             row["PRIMARY_LOCATION"] = page_url[0]
             print(f"Searching in OpenAlex for {name} \nFounded link:{page_url[0]}")
         else:

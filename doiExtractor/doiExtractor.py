@@ -201,3 +201,5 @@ def find_file_by_name(path, name):
         if name in files:
             print(f"Found existing papers")
             return os.path.join(root, name)
+        
+csv_to_json("doiExtractor/Outputs/results.csv", "doiExtractor/Outputs/results.json")
