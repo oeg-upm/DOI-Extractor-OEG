@@ -31,7 +31,7 @@ https://storage.googleapis.com/jnl-up-j-cstp-files/journals/1/articles/538/647dc
 10.1007/978-3-031-38079-2_9
 https://link.springer.com/content/pdf/10.1007/978-3-031-47240-4_15.pdf
 https://link.springer.com/content/pdf/10.1007/978-3-031-47243-5_9.pdf
-https://www.biorxiv.org/content/biorxiv/early/2023/05/04/2023.05.03.539227.full.pdf
+10.1109/CBMS58004.2023.00215
 10.1007/978-3-031-48539-8_15
 10.3233/FAIA230983
 10.1016/j.jbi.2023.104382
@@ -59,7 +59,7 @@ https://link.springer.com/content/pdf/10.1007/978-3-031-47240-4_15.pdf
 10.1007/978-3-031-32213-6_10
 10.1145/3587259.3627565
 10.13052/jwe1540-9589.2284
-10.1016/j.annepidem.2022.08.036
+https://bmjopen.bmj.com/content/bmjopen/12/11/e067203.full.pdf
 https://doi.org/10.9781/ijimai.2022.11.001
 10.12688/wellcomeopenres.16867.5
 10.3897/rio.8.e95943
@@ -76,6 +76,7 @@ https://link.springer.com/content/pdf/10.1007/978-3-030-78307-5_1.pdf
 https://link.springer.com/content/pdf/10.1007/978-3-030-78307-5_12.pdf
 https://direct.mit.edu/qss/article-pdf/2/4/1423/2007844/qss_a_00167.pdf
 https://www.plottingpoetry.org/books/tackling_toolkit/pdf/02_diezplatas.pdf
+10.7554/eLife.72930
 10.7554/elife.72930.sa2
 10.7554/eLife.72930
 10.1002/ett.3729
@@ -296,7 +297,6 @@ https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-019-0060-4
 10.1016/j.autcon.2018.12.010
 10.1111/tgis.12496
 10.3233/SW-180305
-10.3233/SW-180324
 10.1016/j.websem.2018.11.004
 10.3233/SW-180320
 https://www.mdpi.com/2076-3417/9/1/32/pdf?version=1545833153
@@ -318,6 +318,7 @@ https://www.mdpi.com/2076-3417/9/23/5180/pdf?version=1575008421
 10.1007/978-3-030-32327-1_19
 10.1007/978-3-030-36691-9_19
 10.1145/3301275.3302324
+10.3233/SW-180324
 10.1007/s11042-018-6318-5
 10.1145/3318396.3318422
 10.1007/978-3-319-94649-8_34

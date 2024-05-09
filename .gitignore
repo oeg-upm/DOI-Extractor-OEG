@@ -1,6 +1,26 @@
-env/
-DataExtractorOEG.egg-info/
+
 __pycache__/
 .pypirc
+
+# Pypi folders
+DataExtractorOEG.egg-info/
 dist/
 build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+vevn/
+ENV/
+env.bak/
+venv.bak/
+
+#Idea file
+corpus_to_download.txt
+output/*
+processed_metadata.json
+test/pipeline_folder/*
+.idea
+.DS_Store

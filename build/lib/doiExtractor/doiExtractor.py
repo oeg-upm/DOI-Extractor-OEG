@@ -64,7 +64,7 @@ def search_papers(url, url_docs, csv_filename):
 
     with open(csv_filename, "w", newline='', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
-        csv_writer.writerow(["NAME", "DOI"])
+        csv_writer.writerow(["title", "doi"])
 
         total_publications = 0
         publications_with_doi = 0
@@ -125,7 +125,7 @@ def remove_duplicates(csv_file):
     df = pd.read_csv(csv_file, quoting=csv.QUOTE_ALL)
     
     # Drop duplicate rows based on the specified column
-    df.drop_duplicates(subset=['NAME'], keep='first', inplace=True)
+    df.drop_duplicates(subset=['title'], keep='first', inplace=True)
     
     # Write the modified DataFrame back to the CSV file
     df.to_csv(csv_file, index=False, quoting=csv.QUOTE_ALL)
@@ -160,9 +160,9 @@ def create_txt(csv_filename, txt_filename):
         reader = csv.DictReader(file)
         with open(txt_filename, mode='w', encoding='utf-8') as output_file:
             for row in reader:
-                name = row.get("NAME")
-                doi = row.get("DOI")
-                primary_location = row.get("PRIMARY_LOCATION")
+                name = row.get("title")
+                doi = row.get("doi")
+                primary_location = row.get("primary_location")
                 if primary_location != "":
                     try:
                         response = requests.head(primary_location, allow_redirects=True)

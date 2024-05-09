@@ -19,7 +19,7 @@ The resulting information is placed in Outputs folder, which include:
 
 - A results.csv, containing the title and the doi of every paper found, in addition to OpenAlex primary location attribute
 
-- A results.json, containing the same information as results.csv but in a json formal
+- A results.json, containing the same information as results.csv but in a json format
 
 ## Project Structure
 ```
@@ -50,24 +50,41 @@ DOI-Extractor-OEG
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/ptorija/DOI-Extractor-OEG.git```
+```
+git clone https://github.com/ptorija/DOI-Extractor-OEG.git
+```
 
 2. Change to the DOI-Extractor-OEG directory:
-```cd DOI-Extractor-OEG```
+```
+cd DOI-Extractor-OEG
+```
 
 3. Create a virtual environment:
-```python -m venv .env```
+```
+python -m venv .env
+```
 
 4. Activate the virtual environment:
-```source .env/bin/activate``` (Linux) or ```.env\Scripts\activate``` (Windows)
+
+(Linux)
+```
+source .env/bin/activate
+```  
+(Windows)
+ ```
+ .env\Scripts\activate
+ ``` 
 
 5. Install the package dependencies:
-```pip install -e .```
+```
+pip install -e .
+```
 
 ## Usage
 Download the package from Pypi or install the tool from Github:
-
-```pip install DataExtractorOEG```
+```
+pip install DataExtractorOEG
+```
 
 The tool can be used from the command line with the following argument:
 - ```--start``` - To start the doi extraction
@@ -78,7 +95,46 @@ The script will execute and extract DOIs from the specified webpage and then mer
 - ```--url <path>``` - Specify the webpage of the group you want to extract the information. Default: Ontology Engieneering Group
 - ```--output <path>``` - Specify the path for the output files. Default: Outputs
 
-
-
 ### Example
-- ```DataExtractorOEG --start```
+
+1. Install the tool from Pypi ( https://pypi.org/project/DataExtractorOEG/ )
+```
+pip install DataExtractorOEG
+```
+
+2. Start the execution
+```
+DataExtractorOEG --start
+```
+
+When the execution ends, the following files will be saved in doiExtractor/Outputs folder:
+
+- dois.txt
+
+![plot](images\dois_txt.png)
+
+- results.csv
+
+![plot](images\results_csv.png)
+
+- results.json
+
+![plot](images\results_json.png)
+
+#### If you want to use RSEF with the output provided by this tool, follow the following steps
+
+1. Clone RSEF repository:
+```
+git clone https://github.com/SoftwareUnderstanding/RSEF.git
+```
+
+2. Install the required dependencies by running:
+```
+pip install -e .
+```
+
+4. Use RSEF with the extracted results.json from DOI-Extractor-OEG:
+```
+rsef process -j <path to results.json>
+```
+If you didn't execute DOI-Extractor-OEG previously, you can also execute ```DataExtractorOEG --start``` and then the previous command

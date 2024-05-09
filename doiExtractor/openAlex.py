@@ -68,29 +68,29 @@ def add_primary_location_to_csv(csv_filename):
         rows = list(reader)
 
     for row in rows:
-        name = row["NAME"]
-        doi = row["DOI"] 
+        name = row["title"]
+        doi = row["doi"] 
 
         # If doi is None, add the doi founded in OpenAlex
         if doi == "":
             page_url = get_primary_location_by_title(name, doi, include_doi=True)
             if page_url[1] is not None:
-                row["DOI"] = page_url[1]
+                row["doi"] = page_url[1]
                 print(f"Searching in OpenAlex for DOI of {name}: {page_url[1]}")
         else:
             page_url = get_primary_location_by_doi(name, doi)
         
         if page_url[0] is not None:
-            row["PRIMARY_LOCATION"] = page_url[0]
+            row["primary_location"] = page_url[0]
             print(f"Searching in OpenAlex for {name} \nFounded link:{page_url[0]}")
         else:
-            row["PRIMARY_LOCATION"] = "None"
+            row["primary_location"] = ""
             print(f"Searching in OpenAlex for {name}: No primary location")
         print("-----------------------------------------------------------------")
 
     new_columns = list(rows[0].keys())  
-    if "PRIMARY_LOCATION" not in new_columns: 
-        new_columns.append("PRIMARY_LOCATION")
+    if "primary_location" not in new_columns: 
+        new_columns.append("primary_location")
 
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, quoting=csv.QUOTE_ALL, fieldnames=new_columns)
