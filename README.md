@@ -133,8 +133,17 @@ git clone https://github.com/SoftwareUnderstanding/RSEF.git
 pip install -e .
 ```
 
-4. Use RSEF with the extracted results.json from DOI-Extractor-OEG:
+4. Use RSEF with the extracted results.json from DOI-Extractor-OEG, this will create a downloaded_metadata.json and a processed_metadata.json:
 ```
 rsef process -j <path to results.json>
 ```
 If you didn't execute DOI-Extractor-OEG previously, you can also execute ```DataExtractorOEG --start``` and then the previous command
+
+5. To check the implementations of the papers use:
+```
+rsef asses -i <path to processed_metadata.json>
+
+-U flag to check Unidirectionality
+
+-B flag to check Bidirectionality
+```
