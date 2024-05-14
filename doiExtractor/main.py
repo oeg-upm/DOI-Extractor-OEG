@@ -25,10 +25,11 @@ def cli():
         os.makedirs(args.output, exist_ok=True)
 
         # ExistingPapers
-        papers = find_file_by_name(os.getcwd(),"name_doi_papers.csv")
+        papers = find_file_by_name("name_doi_papers.csv")
 
         logging.info("DOI Extractor Tool started")
         logging.info(f"Search in: {url}, Output csv: {csv_filename}, Output txt: {txt_filename}")
+        logging.info(f"Existing papers in: {papers}")
 
         # Delete contents of the files if already created
         if os.path.exists(csv_filename):

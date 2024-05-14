@@ -1,3 +1,4 @@
+import pkg_resources
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -195,7 +196,8 @@ def csv_to_json(csv_file, json_file):
 
 
 def find_file_by_name(path, name):
-    for root, dirs, files in os.walk(path):
+    package_path = pkg_resources.resource_filename(__name__, '')
+    for root, dirs, files in os.walk(package_path):
         if name in files:
             print(f"Found existing papers")
             return os.path.join(root, name)

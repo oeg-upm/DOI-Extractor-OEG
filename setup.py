@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="DataExtractorOEG",
-    version="0.4.9",
+    version="0.5.0",
     author =  "Pablo Torija Martínez",
     packages=find_packages(),
     include_package_data=True,
