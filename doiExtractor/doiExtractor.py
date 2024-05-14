@@ -195,7 +195,7 @@ def csv_to_json(csv_file, json_file):
     df.to_json(json_file, orient='records', indent=4)
 
 
-def find_file_by_name(path, name):
+def find_file_by_name(name):
     package_path = pkg_resources.resource_filename(__name__, '')
     for root, dirs, files in os.walk(package_path):
         if name in files:
