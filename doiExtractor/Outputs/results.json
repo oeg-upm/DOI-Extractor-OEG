@@ -7,7 +7,7 @@
     {
         "title":"Automatic Topic Label Generation using Conversational Models",
         "doi":"10.1145\/3587259.3627574",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3587259.3627574"
+        "primary_location":null
     },
     {
         "title":"Report on Data Homogenisation for High-value Datasets",
@@ -18,11 +18,6 @@
         "title":"Is Automated Consent in Solid GDPR-Compliant? An Approach for Obtaining Valid Consent with the Solid Protocol",
         "doi":"10.3390\/info14120631",
         "primary_location":"https:\/\/www.mdpi.com\/2078-2489\/14\/12\/631\/pdf?version=1700836284"
-    },
-    {
-        "title":"The role of Semantic Web Technologies in Legal Terminology",
-        "doi":"10.1075\/hot.3.rol1",
-        "primary_location":"https:\/\/ceur-ws.org\/Vol-1481\/paper27.pdf"
     },
     {
         "title":"A Review of Bias and Fairness in Artificial Intelligence",
@@ -47,7 +42,7 @@
     {
         "title":"Uncovering hidden therapeutic indications through drug repurposing with graph neural networks and heterogeneous data",
         "doi":"10.1016\/j.artmed.2023.102687",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.artmed.2023.102687"
+        "primary_location":null
     },
     {
         "title":"A Scoping Review on the Progress, Applicability, and Future of Explainable Artificial Intelligence in Medicine",
@@ -57,7 +52,7 @@
     {
         "title":"Encoding of Media Value Chain Processes Through Blockchains and MPEG-21 Smart Contracts for Media",
         "doi":"10.1109\/MMUL.2023.3303393",
-        "primary_location":"https:\/\/doi.org\/10.1109\/mmul.2023.3303393"
+        "primary_location":null
     },
     {
         "title":"Towards Assessing FAIR Research Software Best Practices in an Organization Using RDF-star.",
@@ -77,7 +72,7 @@
     {
         "title":"Experiential Observations: An Ontology Pattern-Based Study on Capturing the Potential Content within Evidences of Experiences",
         "doi":"10.1145\/3586078",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3586078"
+        "primary_location":null
     },
     {
         "title":"Automatic Easy-to-Read Translation of Morphological Structures in Spanish Texts",
@@ -87,7 +82,7 @@
     {
         "title":"Mind the gap: The AURORAL ecosystem for the digital transformation of smart communities and rural areas",
         "doi":"10.1016\/j.techsoc.2023.102304",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.techsoc.2023.102304"
+        "primary_location":null
     },
     {
         "title":"\u201cWho Should I Trust with My Data?\u201d Ethical and Legal Challenges for Innovation in New Decentralized Data Management Technologies",
@@ -96,28 +91,28 @@
     },
     {
         "title":"FAIR Research Object Assessment: A landscape analysis.",
-        "doi":null,
+        "doi":"10.4126\/FRL01-006444989",
         "primary_location":null
     },
     {
         "title":"MuHeQA: Zero-shot Question Answering over Multiple and Heterogeneous Knowledge Bases",
         "doi":"10.3233\/sw-233379",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw233379?id=semantic-web%2Fsw233379"
+        "primary_location":null
     },
     {
         "title":"Multi-perspective Approach for Curating and Exploring the History of Climate Change in Latin America within Digital Newspapers",
         "doi":"10.2298\/CSIS220110008V",
-        "primary_location":"http:\/\/www.doiserbia.nb.rs\/ft.aspx?id=1820-02142300008V"
+        "primary_location":null
     },
     {
         "title":"Multi-Agent Systems on Virtual Games: A Systematic Mapping Study",
         "doi":"10.1109\/TG.2022.3214154",
-        "primary_location":"https:\/\/doi.org\/10.1109\/tg.2022.3214154"
+        "primary_location":null
     },
     {
         "title":"A framework for the broad dissemination of hydrological models for non-expert users",
         "doi":"10.1016\/j.envsoft.2023.105695",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.envsoft.2023.105695"
+        "primary_location":null
     },
     {
         "title":"Porting the One Size Fits All Model for Terminology into a Linked Data Compatible Format",
@@ -137,7 +132,7 @@
     {
         "title":"TINTO: Converting Tidy Data into image for classification with 2-Dimensional Convolutional Neural Networks",
         "doi":"10.1016\/j.softx.2023.101391",
-        "primary_location":"http:\/\/www.softxjournal.com\/article\/S2352711023000870\/pdf"
+        "primary_location":null
     },
     {
         "title":"Gender imbalance in doctoral education: an analysis of the Spanish university system (1977\u20132021)",
@@ -152,57 +147,57 @@
     {
         "title":"Combining heterogeneous data sources for spatio-temporal mobility demand forecasting",
         "doi":"10.1016\/j.inffus.2022.09.028",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.inffus.2022.09.028"
+        "primary_location":null
     },
     {
         "title":"A novel deep learning approach using blurring image techniques for Bluetooth-based indoor localisation",
         "doi":"10.1016\/j.inffus.2022.10.011",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.inffus.2022.10.011"
+        "primary_location":null
     },
     {
         "title":"A scalable, secure, and semantically interoperable client for cloud-enabled Demand Response",
         "doi":"10.1016\/j.future.2022.11.004",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.future.2022.11.004"
+        "primary_location":null
     },
     {
         "title":"Modelling of\u00a0the\u00a0Internet Computer Protocol Architecture: The Next Generation Blockchain",
         "doi":"10.1007\/978-3-031-21229-1_1",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-21229-1_1"
+        "primary_location":null
     },
     {
         "title":"On the Decentralization of Health Systems for Data Availability: A DLT-based Architecture",
         "doi":"10.1109\/CCNC51644.2023.10059701",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ccnc51644.2023.10059701"
+        "primary_location":null
     },
     {
         "title":"Trusting Decentralised Knowledge Graphs and Web Data at the Web Conference",
         "doi":"10.1145\/3543873.3589756",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3543873.3589756"
+        "primary_location":null
     },
     {
         "title":"The First International Workshop on Knowledge Graphs for Sustainability - KG4S Foreword",
         "doi":"10.1145\/3543873.3589745",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3543873.3589745"
+        "primary_location":null
     },
     {
         "title":"Accountable Clouds through Blockchain",
         "doi":"10.1109\/ACCESS.2023.3276240",
-        "primary_location":"https:\/\/ieeexplore.ieee.org\/ielx7\/6287639\/10005208\/10124222.pdf"
+        "primary_location":null
     },
     {
         "title":"Applying the LOT Methodology to a Public Bus Transport Ontology aligned with Transmodel: Challenges and Results",
         "doi":"10.3233\/SW-210451",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw210451?id=semantic-web%2Fsw210451"
+        "primary_location":null
     },
     {
         "title":"Editorial of transport data on the web",
         "doi":"10.3233\/SW-223278",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw223278?id=semantic-web%2Fsw223278"
+        "primary_location":null
     },
     {
         "title":"Boosting Knowledge Graph Generation from\u00a0Tabular Data with\u00a0RML Views",
         "doi":"10.1007\/978-3-031-33455-9_29",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-33455-9_29"
+        "primary_location":null
     },
     {
         "title":"Data Management Documentation in Citizen Science Projects: Bringing Formalisation and Transparency Together",
@@ -212,7 +207,7 @@
     {
         "title":"Analysis of the Confidence in the Prediction of the Protein Folding by Artificial Intelligence",
         "doi":"10.1007\/978-3-031-38079-2_9",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-38079-2_9"
+        "primary_location":null
     },
     {
         "title":"Comparison of\u00a0Knowledge Graph Representations for\u00a0Consumer Scenarios",
@@ -227,62 +222,57 @@
     {
         "title":"Enhancing drug repurposing on graphs by integrating drug molecular structure as feature",
         "doi":"10.1109\/CBMS58004.2023.00215",
-        "primary_location":"https:\/\/doi.org\/10.1109\/cbms58004.2023.00215"
+        "primary_location":null
     },
     {
         "title":"Pody: A Solid-Based Approach to\u00a0Embody Agents in\u00a0Web-Based Multi-Agent-Systems",
         "doi":"10.1007\/978-3-031-48539-8_15",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-48539-8_15"
+        "primary_location":null
     },
     {
         "title":"Event Extraction and Semantic Representation from Spanish Workers Statute Using Large Language Models",
         "doi":"10.3233\/FAIA230983",
-        "primary_location":"https:\/\/ebooks.iospress.nl\/pdf\/doi\/10.3233\/FAIA230983"
+        "primary_location":null
     },
     {
         "title":"Lessons learned to enable question answering on knowledge graphs extracted from scientific publications: A case study on the coronavirus literature",
         "doi":"10.1016\/j.jbi.2023.104382",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.jbi.2023.104382"
+        "primary_location":null
     },
     {
         "title":"Complex queries over decentralised systems for geodata retrieval",
         "doi":"10.1049\/ntw2.12037",
-        "primary_location":"https:\/\/doi.org\/10.1049\/ntw2.12037"
+        "primary_location":null
     },
     {
         "title":"GEnI: A framework for the generation of explanations and insights of knowledge graph embedding predictions",
         "doi":"10.1016\/j.neucom.2022.12.010",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.neucom.2022.12.010"
+        "primary_location":null
     },
     {
         "title":"Dimensionality-reducing classifiers for Spanish winter maintenance of roadways",
         "doi":"10.1109\/CIoT57267.2023.10084897",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ciot57267.2023.10084897"
+        "primary_location":null
     },
     {
         "title":"Depicting Vocabulary Summaries with Devos",
         "doi":"10.1145\/3543873.3587359",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3543873.3587359"
+        "primary_location":null
     },
     {
         "title":"Injecting data into ODRL privacy policies dynamically with RDF mappings",
         "doi":"10.1145\/3543873.3587358",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3543873.3587358"
+        "primary_location":null
     },
     {
         "title":"Practical challenges of ODRL and potential courses of action",
         "doi":"10.1145\/3543873.3587628",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3543873.3587628"
+        "primary_location":null
     },
     {
         "title":"Distributed training and inference of deep learning solar energy forecasting models",
         "doi":"10.1109\/PDP59025.2023.00035",
-        "primary_location":"https:\/\/doi.org\/10.1109\/pdp59025.2023.00035"
-    },
-    {
-        "title":"The ETSI SAREF Ontology for Smart Applications: A Long Path of Development and Evolution",
-        "doi":"10.1002\/9781119899457.ch7",
-        "primary_location":"https:\/\/doi.org\/10.1002\/9781119899457.ch7"
+        "primary_location":null
     },
     {
         "title":"A combination of supervised dimensionality reduction and learning methods to forecast solar radiation",
@@ -297,17 +287,17 @@
     {
         "title":"InDaMul: Incentivized Data Mules for Opportunistic Networking Through Smart Contracts and Decentralized Systems",
         "doi":"10.1145\/3587696",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3587696"
+        "primary_location":null
     },
     {
         "title":"Declarative generation of RDF-star graphs from heterogeneous data",
         "doi":"10.3233\/sw-243602",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw243602?id=semantic-web%2Fsw243602"
+        "primary_location":null
     },
     {
         "title":"Human-Friendly RDF Graph Construction: Which one do you chose?",
         "doi":"10.1007\/978-3-031-34444-2_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-34444-2_19"
+        "primary_location":null
     },
     {
         "title":"Morph-KGC: declarative generation of RDF-star graphs from heterogeneous data",
@@ -357,7 +347,7 @@
     {
         "title":"TEC: Transparent Emissions Calculation Toolkit",
         "doi":"10.1007\/978-3-031-47243-5_5",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-47243-5_5"
+        "primary_location":null
     },
     {
         "title":"ELAINE: rELiAbility and evIdence-aware News vErifier",
@@ -367,32 +357,32 @@
     {
         "title":"Proof of Location through a Blockchain Agnostic Smart Contract Language",
         "doi":"10.1109\/ICDCSW60045.2023.00016",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icdcsw60045.2023.00016"
+        "primary_location":null
     },
     {
         "title":"Re-Construction Impact on Metadata Representation Models",
         "doi":"10.1145\/3587259.3627554",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3587259.3627554"
+        "primary_location":null
     },
     {
         "title":"DLT-Based Personal Data Access Control with Key-Redistribution",
         "doi":"10.1109\/BCCA58897.2023.10338895",
-        "primary_location":"https:\/\/doi.org\/10.1109\/bcca58897.2023.10338895"
+        "primary_location":null
     },
     {
         "title":"Interoperability of Heterogeneous Systems of Systems: Review of Challenges, Emerging Requirements and Options",
         "doi":"10.1145\/3555776.3577692",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3555776.3577692"
+        "primary_location":null
     },
     {
         "title":"On the Use of Deep Neural Networks for Security Vulnerabilities Detection in Smart Contracts",
         "doi":"10.1109\/PerComWorkshops56833.2023.10150302",
-        "primary_location":"https:\/\/doi.org\/10.1109\/percomworkshops56833.2023.10150302"
+        "primary_location":null
     },
     {
         "title":"Towards an\u00a0Automatic Easy-to-Read Adaptation of\u00a0Morphological Features in\u00a0Spanish Texts",
         "doi":"10.1007\/978-3-031-42280-5_12",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-42280-5_12"
+        "primary_location":null
     },
     {
         "title":"ACM K-CAP 2023 Chairs' Welcome",
@@ -422,12 +412,12 @@
     {
         "title":"Preface",
         "doi":"10.1016\/s0304-0208(06)80001-0",
-        "primary_location":"https:\/\/doi.org\/10.1016\/s0304-0208(06)80001-0"
+        "primary_location":null
     },
     {
         "title":"Building a\u00a0Knowledge Graph from\u00a0Historical Newspapers: A Study Case in\u00a0Ecuador",
         "doi":"10.1007\/978-3-031-32213-6_10",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-32213-6_10"
+        "primary_location":null
     },
     {
         "title":"Preface of the Joint Workshop Proceedings of the 5th Sem4Tra Workshop, and 2nd NLP4KGC Workshop co-located with SEMANTiCS 2023",
@@ -437,7 +427,7 @@
     {
         "title":"XSD2SHACL: Capturing RDF Constraints from XML Schema",
         "doi":"10.1145\/3587259.3627565",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3587259.3627565"
+        "primary_location":null
     },
     {
         "title":"The 4th Wikidata Workshop - Wikidata Workshop 2023",
@@ -467,7 +457,7 @@
     {
         "title":"Government plans in the 2016 and 2021 Peruvian presidential elections: A natural language processing analysis of the health chapters",
         "doi":"10.12688\/wellcomeopenres.16867.5",
-        "primary_location":"https:\/\/doi.org\/10.12688\/wellcomeopenres.16867.5"
+        "primary_location":null
     },
     {
         "title":"Challenges for FAIR Digital Object Assessment",
@@ -477,17 +467,17 @@
     {
         "title":"A Systematic Review of Ontologies for the Water Domain",
         "doi":"10.1002\/9781394171460.ch2",
-        "primary_location":"https:\/\/doi.org\/10.1002\/9781394171460.ch2"
+        "primary_location":null
     },
     {
         "title":"Extending Ontology Engineering Practices to Facilitate Application Development",
         "doi":"10.1007\/978-3-031-17105-5_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-17105-5_2"
+        "primary_location":null
     },
     {
         "title":"esT5s: A Spanish Model for Text Summarization",
         "doi":"10.3233\/ssw220020",
-        "primary_location":"https:\/\/ebooks.iospress.nl\/pdf\/doi\/10.3233\/SSW220020"
+        "primary_location":null
     },
     {
         "title":"The implications of natural language processing for public performance management: a systematic literature review",
@@ -517,17 +507,17 @@
     {
         "title":"Nine best practices for research software registries and repositories",
         "doi":"10.7717\/PEERJ-CS.1023",
-        "primary_location":"https:\/\/doi.org\/10.7717\/peerj-cs.1023"
+        "primary_location":null
     },
     {
         "title":"Ontology Management in an Industrial Environment: The BASF Governance Operational Model for Ontologies (GOMO)",
         "doi":"10.5281\/zenodo.7007495",
-        "primary_location":"https:\/\/zenodo.org\/records\/7007495\/files\/bio-ontologies%20paper%20GOMO.pdf"
+        "primary_location":null
     },
     {
         "title":"Analysis of ontologies and policy languages to represent information flows in GDPR",
         "doi":"10.3233\/SW-223009",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw223009?id=semantic-web%2Fsw223009"
+        "primary_location":null
     },
     {
         "title":"A low-cost method for text summarization",
@@ -537,7 +527,7 @@
     {
         "title":"Using the ODRL Profile for Access Control for Solid Pod Resource Governance",
         "doi":"10.1007\/978-3-031-11609-4_3",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-11609-4_3"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the 3rd International Workshop on Semantic Digital Twins (SeDiT 2022)",
@@ -547,12 +537,12 @@
     {
         "title":"FAIR Principles for Research Software (FAIR4RS Principles)",
         "doi":"10.15497\/RDA00068",
-        "primary_location":"https:\/\/zenodo.org\/records\/4908919\/files\/FAIR4RS%20Subgroup%204%20Report%20v0.1.pdf"
+        "primary_location":null
     },
     {
         "title":"Lynx: A knowledge-based AI service platform for content processing, enrichment and analysis for the legal domain",
         "doi":"10.1016\/j.is.2021.101966",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.is.2021.101966"
+        "primary_location":null
     },
     {
         "title":"Technologies and Applications for Big Data Value",
@@ -567,7 +557,7 @@
     {
         "title":"A framework for creating knowledge graphs of scientific software metadata",
         "doi":"10.1162\/qss_a_00167",
-        "primary_location":"https:\/\/direct.mit.edu\/qss\/article-pdf\/2\/4\/1423\/2007844\/qss_a_00167.pdf"
+        "primary_location":null
     },
     {
         "title":"Towards Smart, Digitalised Rural Regions And Communities - Policies, Best Practices And Case Studies",
@@ -587,47 +577,47 @@
     {
         "title":"Development, validation, and application of a machine learning model to estimate salt consumption in 54 countries",
         "doi":"10.7554\/eLife.72930",
-        "primary_location":"https:\/\/doi.org\/10.7554\/elife.72930"
+        "primary_location":null
     },
     {
         "title":"Author response: Development, validation, and application of a machine learning model to estimate salt consumption in 54 countries",
         "doi":"10.7554\/elife.72930.sa2",
-        "primary_location":"https:\/\/doi.org\/10.7554\/elife.72930.sa2"
+        "primary_location":null
     },
     {
         "title":"Estimating  salt consumption  in  49  low-  and  middle-income  countries:  Development, validation and application of a machine learning model",
         "doi":"10.7554\/eLife.72930",
-        "primary_location":"https:\/\/doi.org\/10.7554\/elife.72930"
+        "primary_location":null
     },
     {
         "title":"Context aware ontology-based hybrid intelligent framework for vehicle driver categorization",
         "doi":"10.1002\/ett.3729",
-        "primary_location":"https:\/\/doi.org\/10.1002\/ett.3729"
+        "primary_location":null
     },
     {
         "title":"Rule extraction in unsupervised anomaly detection for model explainability: Application to OneClass SVM[Formula presented]",
         "doi":"10.1016\/j.eswa.2021.116100",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.eswa.2021.116100"
+        "primary_location":null
     },
     {
         "title":"Annotating OGC web feature services automatically for generating geospatial knowledge graphs",
         "doi":"10.1111\/tgis.12863",
-        "primary_location":"https:\/\/doi.org\/10.1111\/tgis.12863"
+        "primary_location":null
     },
     {
         "title":"A graph-based representation of knowledge for managing land administration data from distributed agencies - A case study of Colombia",
         "doi":"10.1080\/10095020.2021.2015250",
-        "primary_location":"https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/10095020.2021.2015250?needAccess=true"
+        "primary_location":null
     },
     {
         "title":"TheyBuyForYou platform and knowledge graph: Expanding horizons in public procurement with open linked data",
         "doi":"10.3233\/SW-210442",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw210442?id=semantic-web%2Fsw210442"
+        "primary_location":null
     },
     {
         "title":"A study of the quality of Wikidata",
         "doi":"10.1016\/j.websem.2021.100679",
-        "primary_location":"http:\/\/manuscript.elsevier.com\/S1570826821000536\/pdf\/S1570826821000536.pdf"
+        "primary_location":null
     },
     {
         "title":"Data Quality Barriers for Transparency in Public Procurement",
@@ -637,12 +627,12 @@
     {
         "title":"LOT: An industrial oriented ontology engineering framework",
         "doi":"10.1016\/j.engappai.2022.104755",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.engappai.2022.104755"
+        "primary_location":null
     },
     {
         "title":"Intelligent Human-input-based Blockchain Oracle (IHiBO)",
         "doi":"10.5220\/0010945300003116",
-        "primary_location":"https:\/\/doi.org\/10.5220\/0010945300003116"
+        "primary_location":null
     },
     {
         "title":"PHDD: Corpus of Physical Health Data Disclosure on Twitter During COVID-19 Pandemic",
@@ -652,42 +642,42 @@
     {
         "title":"Multi-object tracking in traffic environments: A systematic literature review",
         "doi":"10.1016\/j.neucom.2022.04.087",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.neucom.2022.04.087"
+        "primary_location":null
     },
     {
         "title":"Towards CBDC-based machine-to-machine payments in consumer IoT",
         "doi":"10.1145\/3477314.3507078",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3477314.3507078"
+        "primary_location":null
     },
     {
         "title":"Handling qualitative preferences in SPARQL over virtual ontology-based data access",
         "doi":"10.3233\/SW-212895",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw212895?id=semantic-web%2Fsw212895"
+        "primary_location":null
     },
     {
         "title":"Extracting and Understanding Call-to-actions of Push-Notifications",
         "doi":"10.1007\/978-3-031-08473-7_14",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-08473-7_14"
+        "primary_location":null
     },
     {
         "title":"Inspect4py: A Knowledge Extraction Framework for Python Code Repositories",
         "doi":"10.1145\/3524842.3528497",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3524842.3528497"
+        "primary_location":null
     },
     {
         "title":"Incentivized Data Mules Based on State-Channels",
         "doi":"10.1109\/ICBC54727.2022.9805515",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icbc54727.2022.9805515"
+        "primary_location":null
     },
     {
         "title":"Using the\u00a0ODRL Profile for\u00a0Access Control for\u00a0Solid Pod Resource Governance",
         "doi":"10.1007\/978-3-031-11609-4_3",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-11609-4_3"
+        "primary_location":null
     },
     {
         "title":"Interpretable machine learning models for predicting and explaining vehicle fuel consumption anomalies",
         "doi":"10.1016\/j.engappai.2022.105222",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.engappai.2022.105222"
+        "primary_location":null
     },
     {
         "title":"Data governance through a multi-DLT architecture in view of the GDPR",
@@ -702,47 +692,47 @@
     {
         "title":"Accepted Tutorials at The Web Conference 2022",
         "doi":"10.1145\/3487553.3547182",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3487553.3547182"
+        "primary_location":null
     },
     {
         "title":"The impact of NFT profile pictures within social network communities",
         "doi":"10.1145\/3524458.3547230",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3524458.3547230"
+        "primary_location":null
     },
     {
         "title":"DLT-based Data Mules for Smart Territories",
         "doi":"10.1109\/ICCCN54977.2022.9868916",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icccn54977.2022.9868916"
+        "primary_location":null
     },
     {
         "title":"TermitUp: Generation and enrichment of linked terminologies",
         "doi":"10.3233\/SW-222885",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw222885?id=semantic-web%2Fsw222885"
+        "primary_location":null
     },
     {
         "title":"Decentralized Health Data Distribution: A DLT-based Architecture for Data Protection",
         "doi":"10.1109\/Blockchain55522.2022.00023",
-        "primary_location":"https:\/\/doi.org\/10.1109\/blockchain55522.2022.00023"
+        "primary_location":null
     },
     {
         "title":"Extending Ontology Engineering Practices to\u00a0Facilitate Application Development",
         "doi":"10.1007\/978-3-031-17105-5_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-17105-5_2"
+        "primary_location":null
     },
     {
         "title":"EBOCA: Evidences for BiOmedical Concepts Association Ontology",
         "doi":"10.1007\/978-3-031-17105-5_11",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-17105-5_11"
+        "primary_location":null
     },
     {
         "title":"Simulation of the Internet Computer Protocol: the Next Generation Multi-Blockchain Architecture",
         "doi":"10.1109\/DS-RT55542.2022.9932122",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ds-rt55542.2022.9932122"
+        "primary_location":null
     },
     {
         "title":"Blockchain-Based Data Management for Smart Transportation",
         "doi":"10.1007\/978-3-031-07535-3_20",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-07535-3_20"
+        "primary_location":null
     },
     {
         "title":"Systematic Construction of Knowledge Graphs for Research-Performing Organizations",
@@ -752,42 +742,42 @@
     {
         "title":"Towards a Taxonomy of AI Risks in the Health Domain",
         "doi":"10.1109\/TransAI54797.2022.00007",
-        "primary_location":"https:\/\/doi.org\/10.1109\/transai54797.2022.00007"
+        "primary_location":null
     },
     {
         "title":"Fostering trust with transparency in the data economy era: An integrated ethical, legal, and knowledge engineering approach",
         "doi":"10.1145\/3565011.3569061",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3565011.3569061"
+        "primary_location":null
     },
     {
         "title":"Now, Later, Never: A Study of\u00a0Urgency in\u00a0Mobile Push-Notifications",
         "doi":"10.1007\/978-3-031-20436-4_4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-20436-4_4"
+        "primary_location":null
     },
     {
         "title":"An extension of Thing Descriptions from the Web of Things for Digital Twins",
         "doi":"10.12688\/openreseurope.15280.1",
-        "primary_location":"https:\/\/doi.org\/10.12688\/openreseurope.15280.1"
+        "primary_location":null
     },
     {
         "title":"Automating the Response to GDPR's Right of Access",
         "doi":"10.3233\/FAIA220462",
-        "primary_location":"https:\/\/ebooks.iospress.nl\/pdf\/doi\/10.3233\/FAIA220462"
+        "primary_location":null
     },
     {
         "title":"WhenTheFact: Extracting Events from European Legal Decisions",
         "doi":"10.3233\/FAIA220470",
-        "primary_location":"https:\/\/ebooks.iospress.nl\/pdf\/doi\/10.3233\/FAIA220470"
+        "primary_location":null
     },
     {
         "title":"Smart Contracts Vulnerability Classification through Deep Learning",
         "doi":"10.1145\/3560905.3568175",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3560905.3568175"
+        "primary_location":null
     },
     {
         "title":"Packaging research artefacts with RO-Crate",
         "doi":"10.3233\/DS-210053",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/data-science\/ds210053?id=data-science%2Fds210053"
+        "primary_location":null
     },
     {
         "title":"Apports des methodologies et techniques de developpement logiciel pour l'ingenierie des ontologies: Retour d'experience des contributions au developpement de l'ontologie ETSI SAREF",
@@ -802,7 +792,7 @@
     {
         "title":"Characterizing water quality datasets through multi-dimensional knowledge graphs: a case study of the Bogota river basin",
         "doi":"10.2166\/hydro.2022.070",
-        "primary_location":"https:\/\/iwaponline.com\/jh\/article-pdf\/24\/2\/295\/1030721\/jh0240295.pdf"
+        "primary_location":null
     },
     {
         "title":"Characterization of urban risks in the press applying text mining for the enrichment of open data Luis M. Vilches-Bl\u00e1zquez and Diana Comesa\u00f1a Ocampo [Caracterizaci\u00f3n de riesgos urbanos en prensa aplicando miner\u00eda de texto para el enriquecimiento de datos abiertos]",
@@ -812,57 +802,57 @@
     {
         "title":"Ontology verification testing using lexico-syntactic patterns",
         "doi":"10.1016\/j.ins.2021.09.011",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.ins.2021.09.011"
+        "primary_location":null
     },
     {
         "title":"Balancing coverage and specificity for semantic labelling of subject columns",
         "doi":"10.1016\/j.knosys.2021.108092",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.knosys.2021.108092"
+        "primary_location":null
     },
     {
         "title":"DockerPedia: A Knowledge Graph of Software Images and Their Metadata",
         "doi":"10.1142\/S0218194022500036",
-        "primary_location":"https:\/\/doi.org\/10.1142\/s0218194022500036"
+        "primary_location":null
     },
     {
         "title":"Multiagent System for the Prediction of Road Maintenance Actions",
         "doi":"10.1007\/978-3-030-87687-6_11",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-87687-6_11"
+        "primary_location":null
     },
     {
         "title":"Estimating Time Lost on Semaphores with Deep Learning",
         "doi":"10.1007\/978-3-030-87687-6_4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-87687-6_4"
+        "primary_location":null
     },
     {
         "title":"Intelligent Agent for Roadway Data Analysis",
         "doi":"10.1007\/978-3-030-87687-6_10",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-87687-6_10"
+        "primary_location":null
     },
     {
         "title":"Chowlk: from UML-Based Ontology Conceptualizations to\u00a0OWL",
         "doi":"10.1007\/978-3-031-06981-9_20",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-06981-9_20"
+        "primary_location":null
     },
     {
         "title":"Terminology and ontologies",
         "doi":"10.1075\/tlrp.23.07mon",
-        "primary_location":"https:\/\/doi.org\/10.1075\/tlrp.23.07mon"
+        "primary_location":null
     },
     {
         "title":"First Attempt to\u00a0an\u00a0Easy-to-Read Adaptation of\u00a0Repetitions in\u00a0Captions",
         "doi":"10.1007\/978-3-031-08648-9_48",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-08648-9_48"
+        "primary_location":null
     },
     {
         "title":"On The Modeling Of P2P Systems as Temporal Networks: A Case Study With Data Streaming",
         "doi":"10.23919\/ANNSIM55834.2022.9859513",
-        "primary_location":"https:\/\/doi.org\/10.23919\/annsim55834.2022.9859513"
+        "primary_location":null
     },
     {
         "title":"FAIROs: Towards FAIR Assessment in\u00a0Research Objects",
         "doi":"10.1007\/978-3-031-16802-4_6",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-16802-4_6"
+        "primary_location":null
     },
     {
         "title":"Declarative Description of Knowledge Graphs Construction Automation: Status & Challenges",
@@ -883,11 +873,6 @@
         "title":"Devising Mapping Interoperability with Mapping Translation",
         "doi":null,
         "primary_location":null
-    },
-    {
-        "title":"Helio: a framework for implementing the life cycle of knowledge graphs",
-        "doi":"10.3233\/sw-233224",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw233224?id=semantic-web%2Fsw233224"
     },
     {
         "title":"Representing Multilingual Terminologies with OntoLex-Lemon",
@@ -922,7 +907,7 @@
     {
         "title":"PREFACE",
         "doi":"10.1016\/s0304-0208(06)80001-0",
-        "primary_location":"https:\/\/doi.org\/10.1016\/s0304-0208(06)80001-0"
+        "primary_location":null
     },
     {
         "title":"TermTrends: Trends in Terminology Generation and Modelling",
@@ -952,27 +937,27 @@
     {
         "title":"ON THE MODELING OF P2P SYSTEMS AS TEMPORAL NETWORKS: A CASE STUDY WITH DATA STREAMING",
         "doi":"10.23919\/annsim55834.2022.9859513",
-        "primary_location":"https:\/\/doi.org\/10.23919\/annsim55834.2022.9859513"
+        "primary_location":null
     },
     {
         "title":"Preface - SMART 2022",
         "doi":"10.1063\/12.0017296",
-        "primary_location":"https:\/\/doi.org\/10.1063\/12.0017296"
+        "primary_location":null
     },
     {
         "title":"A Spanish Political Tweets Fine-Tuned Sentiment Analysis Model",
         "doi":"10.1007\/978-3-031-14859-0_8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-031-14859-0_8"
+        "primary_location":null
     },
     {
         "title":"Enhancing Trust in Trust Services: Towards an Intelligent Human-input-based Blockchain Oracle (IHiBO)",
         "doi":"10.24251\/hicss.2022.712",
-        "primary_location":"https:\/\/doi.org\/10.24251\/hicss.2022.712"
+        "primary_location":null
     },
     {
         "title":"A hierarchical multi-agent architecture based on virtual identities to explain black-box personalization policies",
         "doi":"10.1016\/j.eswa.2021.115731",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.eswa.2021.115731"
+        "primary_location":null
     },
     {
         "title":"A case-based reasoning model powered by deep learning for radiology report recommendation",
@@ -982,7 +967,7 @@
     {
         "title":"Semantic conflation in GIScience: a systematic review",
         "doi":"10.1080\/15230406.2021.1952109",
-        "primary_location":"https:\/\/doi.org\/10.1080\/15230406.2021.1952109"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the Doctoral Consortium at ISWC 2021",
@@ -992,7 +977,7 @@
     {
         "title":"An analysis of pollution Citizen Science projects from the perspective of Data Science and Open Science",
         "doi":"10.1108\/DTA-10-2020-0253",
-        "primary_location":"https:\/\/doi.org\/10.1108\/dta-10-2020-0253"
+        "primary_location":null
     },
     {
         "title":"Analysing Ontological Requirements: A Journey from Requirements to Code and Back",
@@ -1017,22 +1002,22 @@
     {
         "title":"CHALLENGE-BASED LEARNING IN EXPLAINABLE ARTIFICIAL INTELLIGENCE EDUCATION",
         "doi":"10.21125\/edulearn.2021.0165",
-        "primary_location":"https:\/\/doi.org\/10.21125\/edulearn.2021.0165"
+        "primary_location":null
     },
     {
         "title":"An ontology-based deep learning approach for triple classification with out-of-knowledge-base entities",
         "doi":"10.1016\/j.ins.2021.02.018",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.ins.2021.02.018"
+        "primary_location":null
     },
     {
         "title":"Crossing the chasm between ontology engineering and application development: A survey",
         "doi":"10.1016\/j.websem.2021.100655",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2021.100655"
+        "primary_location":null
     },
     {
         "title":"Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making",
         "doi":"10.1145\/3453172",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3453172"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the 2nd International Workshop on Semantic Digital Twins (SeDiT 2021)",
@@ -1047,112 +1032,112 @@
     {
         "title":"An estimation of heavy-duty vehicle fleet CO2 emissions based on sampled data",
         "doi":"10.1016\/j.trd.2021.102784",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.trd.2021.102784"
+        "primary_location":null
     },
     {
         "title":"Towards metrics-driven ontology engineering",
         "doi":"10.1007\/s10115-021-01545-9",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10115-021-01545-9"
+        "primary_location":null
     },
     {
         "title":"On learning context-aware rules to link RDF datasets",
         "doi":"10.1093\/jigpal\/jzaa043",
-        "primary_location":"https:\/\/doi.org\/10.1093\/jigpal\/jzaa043"
+        "primary_location":null
     },
     {
         "title":"An information sharing strategy based on linked data for net zero energy buildings and clusters",
         "doi":"10.1016\/j.autcon.2021.103592",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.autcon.2021.103592"
+        "primary_location":null
     },
     {
         "title":"Personal Data Access Control Through Distributed Authorization",
         "doi":"10.1109\/nca51143.2020.9306721",
-        "primary_location":"https:\/\/doi.org\/10.1109\/nca51143.2020.9306721"
+        "primary_location":null
     },
     {
         "title":"Typology-based semantic labeling of numeric tabular data",
         "doi":"10.3233\/SW-200397",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200397"
+        "primary_location":null
     },
     {
         "title":"A Flexible and Robust Deep Learning-Based System for Solar Irradiance Forecasting",
         "doi":"10.1109\/ACCESS.2021.3051839",
-        "primary_location":"https:\/\/ieeexplore.ieee.org\/ielx7\/6287639\/9312710\/09324830.pdf"
+        "primary_location":null
     },
     {
         "title":"Understanding the phenomenology of reading through modelling",
         "doi":"10.3233\/SW-200396",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200396"
+        "primary_location":null
     },
     {
         "title":"A High-Level Ontology Network for ICT Infrastructures",
         "doi":"10.1007\/978-3-030-88361-4_26",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-88361-4_26"
+        "primary_location":null
     },
     {
         "title":"MOVO: a dApp for DLT-based Smart Mobility",
         "doi":"10.1109\/ICCCN52240.2021.9522257",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icccn52240.2021.9522257"
+        "primary_location":null
     },
     {
         "title":"Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case",
         "doi":"10.1109\/ICCCN52240.2021.9522165",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icccn52240.2021.9522165"
+        "primary_location":null
     },
     {
         "title":"Toward the Ontological Modeling of Smart Contracts: A Solidity Use Case",
         "doi":"10.1109\/ACCESS.2021.3115577",
-        "primary_location":"https:\/\/ieeexplore.ieee.org\/ielx7\/6287639\/6514899\/09548044.pdf"
+        "primary_location":null
     },
     {
         "title":"Enhancing virtual ontology based access over tabular data with Morph-CSV",
         "doi":"10.3233\/SW-210432",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-210432"
+        "primary_location":null
     },
     {
         "title":"ODRL Profile for Expressing Consent through Granular Access Control Policies in Solid",
         "doi":"10.1109\/EuroSPW54576.2021.00038",
-        "primary_location":"https:\/\/doi.org\/10.1109\/eurospw54576.2021.00038"
+        "primary_location":null
     },
     {
         "title":"The Use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability",
         "doi":"10.1007\/978-3-030-89811-3_23",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3_23"
+        "primary_location":null
     },
     {
         "title":"A Community Roadmap for Scientific Workflows Research and Development",
         "doi":"10.1109\/WORKS54523.2021.00016",
-        "primary_location":"https:\/\/doi.org\/10.1109\/works54523.2021.00016"
+        "primary_location":null
     },
     {
         "title":"Simulation of Hybrid Edge Computing Architectures",
         "doi":"10.1109\/DS-RT52167.2021.9576121",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ds-rt52167.2021.9576121"
+        "primary_location":null
     },
     {
         "title":"Advances in pattern-based ontology engineering",
         "doi":"10.3233\/SSW51",
-        "primary_location":"https:\/\/doi.org\/10.3233\/ssw51"
+        "primary_location":null
     },
     {
         "title":"Governing decentralized complex queries through a DAO",
         "doi":"10.1145\/3462203.3475910",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3462203.3475910"
+        "primary_location":null
     },
     {
         "title":"Simulation of Dissemination Strategies on Temporal Networks",
         "doi":"10.23919\/ANNSIM52504.2021.9552126",
-        "primary_location":"https:\/\/doi.org\/10.23919\/annsim52504.2021.9552126"
+        "primary_location":null
     },
     {
         "title":"Further with Knowledge Graphs - Proceedings of the 17th International Conference on Semantic Systems",
         "doi":"978-1-64368-201-3",
-        "primary_location":"https:\/\/publikationen.bibliothek.kit.edu\/1000139991"
+        "primary_location":null
     },
     {
         "title":"A scoping review on the use, processing and fusion of geographic data in virtual assistants",
         "doi":"10.1111\/tgis.12720",
-        "primary_location":"https:\/\/doi.org\/10.1111\/tgis.12720"
+        "primary_location":null
     },
     {
         "title":"An analysis of existing production frameworks for statistical and geographic information: Synergies, gaps and integration",
@@ -1162,17 +1147,17 @@
     {
         "title":"LACLICHEV: Exploring the History of Climate Change in Latin America Within Newspapers Digital Collections",
         "doi":"10.1007\/978-3-030-85082-1_11",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-85082-1_11"
+        "primary_location":null
     },
     {
         "title":"Conformance testing of ontologies through ontology requirements",
         "doi":"10.1016\/j.engappai.2020.104026",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.engappai.2020.104026"
+        "primary_location":null
     },
     {
         "title":"Towards the use of ontologies in remotely piloted aircraft system conceptual design: Opportunities and challenges",
         "doi":"10.2514\/6.2021-1061",
-        "primary_location":"https:\/\/doi.org\/10.2514\/6.2021-1061"
+        "primary_location":null
     },
     {
         "title":"Preface for the 2nd edition of the international knowledge graph construction workshop",
@@ -1192,7 +1177,7 @@
     {
         "title":"Converting UML-Based Ontology Conceptualizations to OWL with Chowlk",
         "doi":"10.1007\/978-3-030-80418-3_8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-80418-3_8"
+        "primary_location":null
     },
     {
         "title":"R4R: Template-based REST API Framework for RDF Knowledge Graphs",
@@ -1202,12 +1187,12 @@
     {
         "title":"TimeLex: A Suite of Tools for Processing Temporal Information in Legal Texts",
         "doi":"10.1007\/978-3-030-89811-3_18",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3_18"
+        "primary_location":null
     },
     {
         "title":"Introduction: A Hybrid Regulatory Framework and Technical Architecture for a Human-Centered and Explainable AI",
         "doi":"10.1007\/978-3-030-89811-3_1",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3_1"
+        "primary_location":null
     },
     {
         "title":"FOOPS!: An ontology pitfall scanner for the FAIR principles",
@@ -1217,32 +1202,32 @@
     {
         "title":"Creating and querying personalized versions of wikidata on a laptop",
         "doi":"10.48550\/arxiv.2108.07119",
-        "primary_location":"https:\/\/arxiv.org\/abs\/2108.07119"
+        "primary_location":null
     },
     {
         "title":"Supporting Demand-Response strategies with the DELTA ontology",
         "doi":"10.1109\/AICCSA53542.2021.9686935",
-        "primary_location":"https:\/\/doi.org\/10.1109\/aiccsa53542.2021.9686935"
+        "primary_location":null
     },
     {
         "title":"Bilingual Dataset for Information Retrieval and Question Answering over the Spanish Workers Statute",
-        "doi":"10.5281\/zenodo.4256717",
-        "primary_location":"https:\/\/zenodo.org\/record\/4256717"
+        "doi":"10.5281\/zenodo.4256718",
+        "primary_location":null
     },
     {
         "title":"Challenges in the Digital Representation of Privacy Terms",
         "doi":"10.1007\/978-3-030-89811-3_22",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3_22"
+        "primary_location":null
     },
     {
         "title":"Integration of building material databases for IFC-based building performance analysis",
         "doi":"10.22260\/isarc2021\/0027",
-        "primary_location":"https:\/\/doi.org\/10.22260\/isarc2021\/0027"
+        "primary_location":null
     },
     {
         "title":"VOCEDITOR - An Integrated Environment to Visually Edit, Validate and Versioning RDF Vocabularies",
         "doi":"10.1109\/ICSC50631.2021.9475916",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icsc50631.2021.9475916"
+        "primary_location":null
     },
     {
         "title":"ETSI SmartM2M Technical Report 103717; Study for oneM2M; Discovery and Query specification development",
@@ -1257,22 +1242,22 @@
     {
         "title":"Link maintenance for integrity in linked open data evolution: Literature survey and open challenges",
         "doi":"10.3233\/SW-200398",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200398"
+        "primary_location":null
     },
     {
         "title":"Knowledge Engineering of PhD Stories: A Preliminary Study",
         "doi":"10.1145\/3460210.3493579",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3460210.3493579"
+        "primary_location":null
     },
     {
         "title":"Challenges in the Implementation of Privacy Enhancing Semantic Technologies (PESTs) Supporting GDPR",
         "doi":"10.1007\/978-3-030-89811-3_20",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3_20"
+        "primary_location":null
     },
     {
         "title":"Web of things (wot) discovery",
         "doi":"10.1109\/ccnc.2019.8651786",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ccnc.2019.8651786"
+        "primary_location":null
     },
     {
         "title":"Thesaurus enhanced extraction of Hohfeld's relations from Spanish Labour Law",
@@ -1302,12 +1287,12 @@
     {
         "title":"AI Approaches to the Complexity of Legal Systems XI-XII",
         "doi":"978-3-030-89810-6",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-89811-3"
+        "primary_location":null
     },
     {
         "title":"GTFS-Madrid-Bench: A benchmark for virtual knowledge graph access in the transport domain",
         "doi":"10.1016\/j.websem.2020.100596",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2020.100596"
+        "primary_location":null
     },
     {
         "title":"ENIGMA and global neuroscience: A decade of large-scale studies of the brain in health and disease across more than 40 countries",
@@ -1322,27 +1307,27 @@
     {
         "title":"Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web",
         "doi":"10.3233\/ssw200034",
-        "primary_location":"https:\/\/doi.org\/10.3233\/ssw200034"
+        "primary_location":null
     },
     {
         "title":"Personal Data Access Control through Distributed Authorization",
         "doi":"10.1109\/NCA51143.2020.9306721",
-        "primary_location":"https:\/\/doi.org\/10.1109\/nca51143.2020.9306721"
+        "primary_location":null
     },
     {
         "title":"Using LOT methodology to develop a noise pollution ontology: a Spanish use case",
         "doi":"10.1007\/s12652-019-01561-2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s12652-019-01561-2"
+        "primary_location":null
     },
     {
         "title":"A multi-agent architecture for mobile sensing systems",
         "doi":"10.1007\/s12652-019-01608-4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s12652-019-01608-4"
+        "primary_location":null
     },
     {
         "title":"Enhancing Public Procurement in the European Union Through Constructing and Exploiting an Integrated Knowledge Graph",
         "doi":"10.1007\/978-3-030-62466-8_27",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-62466-8_27"
+        "primary_location":null
     },
     {
         "title":"COMPARTIR Y GENERAR DATOS Y CONOCIMIENTO AGROECOL\u00d3GICO CON PAUSA",
@@ -1352,12 +1337,12 @@
     {
         "title":"MOATcoin: Exploring challenges and legal implications of smart contracts through a gamelike DApp experiment",
         "doi":"10.1145\/3410699.3413798",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3410699.3413798"
+        "primary_location":null
     },
     {
         "title":"Are distributed ledger technologies ready for intelligent transportation systems?",
         "doi":"10.1145\/3410699.3413789",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3410699.3413789"
+        "primary_location":null
     },
     {
         "title":"Discovering hidden mental states in open multi-agent systems by leveraging multi-protocol regularities with machine learning",
@@ -1367,42 +1352,42 @@
     {
         "title":"Potentially inappropriate medications in older adults living with HIV",
         "doi":"10.1111\/hiv.12883",
-        "primary_location":"https:\/\/onlinelibrary.wiley.com\/doi\/pdfdirect\/10.1111\/hiv.12883"
+        "primary_location":null
     },
     {
         "title":"Mission possible: Unify HPC and Big Data stacks towards application-defined blobs at the storage layer",
         "doi":"10.1016\/j.future.2018.07.035",
-        "primary_location":"http:\/\/manuscript.elsevier.com\/S0167739X17330583\/pdf\/S0167739X17330583.pdf"
+        "primary_location":null
     },
     {
         "title":"Grammatically uniform population initialization for grammar-guided genetic programming",
         "doi":"10.1007\/s00500-020-05061-w",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s00500-020-05061-w"
+        "primary_location":null
     },
     {
         "title":"Polypharmacy and Drug-Drug Interactions in People Living With Human Immunodeficiency Virus in the Region of Madrid, Spain: A Population-Based Study",
         "doi":"10.1093\/cid\/ciz811",
-        "primary_location":"https:\/\/doi.org\/10.1093\/cid\/ciz811"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the 32nd International Conference on Software Engineering and Knowledge Engineering (SEKE 2020)",
         "doi":"10.18293\/SEKE2020",
-        "primary_location":"https:\/\/doi.org\/10.18293\/seke2020"
+        "primary_location":null
     },
     {
         "title":"An Intelligent System to Generate Chord Progressions from Colors with an Artificial Immune System",
         "doi":"10.1007\/s00354-020-00100-4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s00354-020-00100-4"
+        "primary_location":null
     },
     {
         "title":"Accessibility and personalization in opencourseware: An inclusive development approach",
         "doi":"10.1109\/ICALT49669.2020.00091",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icalt49669.2020.00091"
+        "primary_location":null
     },
     {
         "title":"Developing accessibility multimedia services: The case of EasyTV",
         "doi":"10.1145\/3389189.3397973",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3389189.3397973"
+        "primary_location":null
     },
     {
         "title":"Enterprise Information Integration: On Discovering Links Using Genetic Programming",
@@ -1417,27 +1402,27 @@
     {
         "title":"Exploiting Declarative Mapping Rules for Generating GraphQL Servers with Morph-GraphQL",
         "doi":"10.1142\/S0218194020400070",
-        "primary_location":"https:\/\/doi.org\/10.1142\/s0218194020400070"
+        "primary_location":null
     },
     {
         "title":"Spanish corpora for sentiment analysis: a survey",
         "doi":"10.1007\/s10579-019-09470-8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10579-019-09470-8"
+        "primary_location":null
     },
     {
         "title":"Defying wikidata: Validation of terminological relations in the web of data",
         "doi":"10.13025\/rev8-z474",
-        "primary_location":"https:\/\/www.aclweb.org\/anthology\/2020.lrec-1.694.pdf"
+        "primary_location":null
     },
     {
         "title":"Orchestrating NLP Services for the Legal Domain",
         "doi":null,
-        "primary_location":"https:\/\/www.aclweb.org\/anthology\/2020.lrec-1.284.pdf"
+        "primary_location":null
     },
     {
         "title":"Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability",
         "doi":null,
-        "primary_location":"https:\/\/www.aclweb.org\/anthology\/2020.iwltp-1.15.pdf"
+        "primary_location":null
     },
     {
         "title":"Order matters: terminological saturation is best achievable using descending citation frequency datasets",
@@ -1452,7 +1437,7 @@
     {
         "title":"The Challenge: From MPEG Intellectual Property Rights Ontologies to Smart Contracts and Blockchains [Standards in a Nutshell]",
         "doi":"10.1109\/MSP.2019.2955207",
-        "primary_location":"https:\/\/doi.org\/10.1109\/msp.2019.2955207"
+        "primary_location":null
     },
     {
         "title":"The zaragoza's knowledge graph: Open data to harness the city knowledge",
@@ -1472,12 +1457,12 @@
     {
         "title":"An ontology-based deep learning approach for knowledge graph completion with fresh entities",
         "doi":"10.1007\/978-3-030-23887-2_15",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-23887-2_15"
+        "primary_location":null
     },
     {
         "title":"A Framework Based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems",
         "doi":"10.1109\/ACCESS.2020.2998012",
-        "primary_location":"https:\/\/ieeexplore.ieee.org\/ielx7\/6287639\/8948470\/09102237.pdf"
+        "primary_location":null
     },
     {
         "title":"Astrea: Automatic Generation of SHACL Shapes from Ontologies",
@@ -1487,57 +1472,57 @@
     {
         "title":"Large-scale semantic exploration of scientific literature using topic-based hashing algorithms",
         "doi":"10.3233\/SW-200373",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200373"
+        "primary_location":null
     },
     {
         "title":"Improving the Results of Citizen Science Projects Through Reputation Systems: The Case of Wolf's Number Experiment",
         "doi":"10.1109\/ACCESS.2020.3030006",
-        "primary_location":"https:\/\/ieeexplore.ieee.org\/ielx7\/6287639\/8948470\/09220105.pdf"
+        "primary_location":null
     },
     {
         "title":"FunMap: Efficient Execution of Functional Mappings for Knowledge Graph Creation",
         "doi":"10.1007\/978-3-030-62419-4_16",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-62419-4_16"
+        "primary_location":null
     },
     {
         "title":"OpenADR Ontology: Semantic Enrichment of Demand Response Strategies in Smart Grids",
         "doi":"10.1109\/SEST48500.2020.9203093",
-        "primary_location":"https:\/\/doi.org\/10.1109\/sest48500.2020.9203093"
+        "primary_location":null
     },
     {
         "title":"Semantic Interoperability for DR Schemes Employing the SGAM Framework",
         "doi":"10.1109\/SEST48500.2020.9203338",
-        "primary_location":"https:\/\/doi.org\/10.1109\/sest48500.2020.9203338"
+        "primary_location":null
     },
     {
         "title":"On the Efficiency of Decentralized File Storage for Personal Information Management Systems",
         "doi":"10.1109\/ISCC50000.2020.9219623",
-        "primary_location":"https:\/\/doi.org\/10.1109\/iscc50000.2020.9219623"
+        "primary_location":null
     },
     {
         "title":"Events Matter: Extraction of Events from Court Decisions",
         "doi":"10.3233\/FAIA200847",
-        "primary_location":"https:\/\/ebooks.iospress.nl\/pdf\/doi\/10.3233\/FAIA200847"
+        "primary_location":null
     },
     {
         "title":"Editorial: Special issue on Semantic eScience: Methods, tools and applications",
         "doi":"10.3233\/SW-200380",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw200380?id=semantic-web%2Fsw200380"
+        "primary_location":null
     },
     {
         "title":"KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis",
         "doi":"10.1007\/978-3-030-62466-8_18",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-62466-8_18"
+        "primary_location":null
     },
     {
         "title":"OBA: An Ontology-Based Framework for\u00a0Creating REST APIs for Knowledge Graphs",
         "doi":"10.1007\/978-3-030-62466-8_4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-62466-8_4"
+        "primary_location":null
     },
     {
         "title":"Fair computational workflows",
         "doi":"10.1162\/dint_a_00033",
-        "primary_location":"https:\/\/www.mitpressjournals.org\/doi\/pdf\/10.1162\/dint_a_00033"
+        "primary_location":null
     },
     {
         "title":"LYNX: Towards a Legal Knowledge Graph for Multilingual Europe",
@@ -1547,7 +1532,7 @@
     {
         "title":"A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good",
         "doi":"10.1109\/CCNC46108.2020.9045640",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ccnc46108.2020.9045640"
+        "primary_location":null
     },
     {
         "title":"Developing an ontology network about meteorological events from historical newspapers [Construcci\u00f3n de una red de ontolog\u00edas sobre eventos meteorol\u00f3gicos a partir de peri\u00f3dicos hist\u00f3ricos]",
@@ -1557,77 +1542,77 @@
     {
         "title":"A review of mobile sensing systems, applications, and opportunities",
         "doi":"10.1007\/s10115-019-01346-1",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10115-019-01346-1"
+        "primary_location":null
     },
     {
         "title":"A moderate experiential learning approach applied on data science",
         "doi":"10.1007\/978-3-030-23990-9_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-23990-9_2"
+        "primary_location":null
     },
     {
         "title":"Graph-based root cause analysis for service-oriented and microservice architectures",
         "doi":"10.1016\/j.jss.2019.110432",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.jss.2019.110432"
+        "primary_location":null
     },
     {
         "title":"Towards a new generation of ontology based data access",
         "doi":"10.3233\/SW-190384",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-190384"
+        "primary_location":null
     },
     {
         "title":"Optimized Term Extraction Method Based on Computing Merged Partial C-Values",
         "doi":"10.1007\/978-3-030-39459-2_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-39459-2_2"
+        "primary_location":null
     },
     {
         "title":"Prediction and failure analysis of composite resin restorations in the posterior sector applied in teaching dental students",
         "doi":"10.1007\/s12652-020-01804-7",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s12652-020-01804-7"
+        "primary_location":null
     },
     {
         "title":"Annotador: a temporal tagger for Spanish",
         "doi":"10.3233\/JIFS-179865",
-        "primary_location":"https:\/\/doi.org\/10.3233\/jifs-179865"
+        "primary_location":null
     },
     {
         "title":"An Agent-Based Model for Exploring Pension Law and Social Security Policies",
         "doi":"10.1007\/978-3-030-58790-1_4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-58790-1_4"
+        "primary_location":null
     },
     {
         "title":"Towards the assessment of easy-to-read guidelines using artificial intelligence techniques",
         "doi":"10.1007\/978-3-030-58796-3_10",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-58796-3_10"
+        "primary_location":null
     },
     {
         "title":"SAREF4INMA: A SAREF extension for the industry and manufacturing domain",
         "doi":"10.3233\/SW-200402",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200402"
+        "primary_location":null
     },
     {
         "title":"TermInteract: An Online Tool for Terminologists Aimed at Providing Terminology Quality Metrics",
         "doi":"10.1109\/CIST49399.2021.9357197",
-        "primary_location":"https:\/\/doi.org\/10.1109\/cist49399.2021.9357197"
+        "primary_location":null
     },
     {
         "title":"Morph-Skyline: Virtual Ontology-Based Data Access for Skyline Queries",
         "doi":"10.1109\/WIIAT50758.2020.00043",
-        "primary_location":"https:\/\/doi.org\/10.1109\/wiiat50758.2020.00043"
+        "primary_location":null
     },
     {
         "title":"Coming to Terms with FAIR Ontologies",
         "doi":"10.1007\/978-3-030-61244-3_18",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-61244-3_18"
+        "primary_location":null
     },
     {
         "title":"Mapping the Web Ontology Language to the OpenAPI Specification",
         "doi":"10.1007\/978-3-030-65847-2_11",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-65847-2_11"
+        "primary_location":null
     },
     {
         "title":"Ontologies Supporting Research-Related Information Foraging Using Knowledge Graphs: Literature Survey and Holistic Model Mapping",
         "doi":"10.1007\/978-3-030-61244-3_6",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-61244-3_6"
+        "primary_location":null
     },
     {
         "title":"Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger technologies",
@@ -1637,17 +1622,17 @@
     {
         "title":"Location privacy and inference in online social networks",
         "doi":null,
-        "primary_location":"https:\/\/dblp.uni-trier.de\/db\/conf\/jurix\/dc2019.html#Zichichi19"
+        "primary_location":null
     },
     {
         "title":"Foreword",
         "doi":"10.1038\/ki.2009.188",
-        "primary_location":"http:\/\/www.kidney-international.org\/article\/S0085253815538933\/pdf"
+        "primary_location":null
     },
     {
         "title":"Benchmarking the efficiency of RDF-based access for blockchain environments",
         "doi":"10.18293\/SEKE2020-104",
-        "primary_location":"https:\/\/dblp.uni-trier.de\/db\/conf\/seke\/seke2020.html#CimminoGC20"
+        "primary_location":null
     },
     {
         "title":"From obXML to the OP ontology: Developing a semantic model for occupancy profile",
@@ -1657,12 +1642,12 @@
     {
         "title":"Recent developments for the linguistic linked open data infrastructure",
         "doi":null,
-        "primary_location":"http:\/\/dblp.uni-trier.de\/db\/conf\/lrec\/lrec2020.html#DeclerckMHGCMCR20"
+        "primary_location":null
     },
     {
         "title":"Drugs4Covid: Drug-driven Knowledge Exploitation based on Scientific Publications",
         "doi":"10.48550\/arxiv.2012.01953",
-        "primary_location":"https:\/\/arxiv.org\/abs\/2012.01953"
+        "primary_location":null
     },
     {
         "title":"Preface to the Proceedings of the EKAW 2020 Posters and Demonstrations Session co-located with 22nd International Conference on Knowledge Engineering and Knowledge Management (EKAW 2020)",
@@ -1677,7 +1662,7 @@
     {
         "title":"Best practices for implementing fair vocabularies and ontologies on the web",
         "doi":"10.3233\/ssw200034",
-        "primary_location":"https:\/\/doi.org\/10.3233\/ssw200034"
+        "primary_location":null
     },
     {
         "title":"Polypharmacy and Drug\u2013Drug Interactions in People Living With Human Immunodeficiency Virus in the Region of Madrid, Spain: A Population-Based Study",
@@ -1692,7 +1677,7 @@
     {
         "title":"Proceedings of the 10th Workshop on Ontology Design and Patterns (WOP 2019)",
         "doi":null,
-        "primary_location":"http:\/\/www.diva-portal.org\/smash\/record.jsf?pid=diva2:1358287"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the 8th Linked Data in Architecture and Construction Workshop (LDAC2020",
@@ -1702,12 +1687,12 @@
     {
         "title":"Ontolog\u00edas y vocabularios para la normalizaci\u00f3n de datos abiertos",
         "doi":null,
-        "primary_location":"https:\/\/dialnet.unirioja.es\/servlet\/articulo?codigo=7480703"
+        "primary_location":null
     },
     {
         "title":"SIMULATION OF DISSEMINATION STRATEGIES ON TEMPORAL NETWORKS",
         "doi":"10.23919\/annsim52504.2021.9552126",
-        "primary_location":"https:\/\/doi.org\/10.23919\/annsim52504.2021.9552126"
+        "primary_location":null
     },
     {
         "title":"Mapeathor: Simplifying the specification of declarative rules for knowledge graph construction",
@@ -1717,12 +1702,12 @@
     {
         "title":"Unveiling the diversity of spatial data infrastructures in Latin America: evidence from an exploratory inquiry",
         "doi":"10.1080\/15230406.2020.1772113",
-        "primary_location":"https:\/\/doi.org\/10.1080\/15230406.2020.1772113"
+        "primary_location":null
     },
     {
         "title":"A Proposal for Semantic Integration of Crime Data in Mexico City",
         "doi":"10.1007\/978-3-030-59872-3_3",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-59872-3_3"
+        "primary_location":null
     },
     {
         "title":"Morph-CSV: Virtual knowledge graph access for tabular data",
@@ -1732,37 +1717,37 @@
     {
         "title":"Standards for the IoT",
         "doi":"10.1007\/978-3-030-45316-9_6",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-45316-9_6"
+        "primary_location":null
     },
     {
         "title":"Ontologies for IoT Semantic Interoperability",
         "doi":"10.1007\/978-3-030-45316-9_5",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-45316-9_5"
+        "primary_location":null
     },
     {
         "title":"Evaluating the impact of semantic technologies on bibliographic systems: A user-centred and comparative approach",
         "doi":"10.1016\/j.websem.2019.03.001",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2019.03.001"
+        "primary_location":null
     },
     {
         "title":"Ontology based E-learning framework: A personalized, adaptive and context aware model",
         "doi":"10.1007\/s11042-019-08125-8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s11042-019-08125-8"
+        "primary_location":null
     },
     {
         "title":"SoMEF: A Framework for Capturing Scientific Software Metadata from its Documentation",
         "doi":"10.1109\/BigData47090.2019.9006447",
-        "primary_location":"https:\/\/doi.org\/10.1109\/bigdata47090.2019.9006447"
+        "primary_location":null
     },
     {
         "title":"Deep neural network architectures for social services diagnosis in smart cities",
         "doi":"10.1016\/j.future.2019.05.034",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.future.2019.05.034"
+        "primary_location":null
     },
     {
         "title":"Survey of agent-based cloud computing applications",
         "doi":"10.1016\/j.future.2019.04.037",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.future.2019.04.037"
+        "primary_location":null
     },
     {
         "title":"Potentially inappropriate medications in older adults with HIV in the region of Madrid, Spain",
@@ -1772,62 +1757,62 @@
     {
         "title":"Scalable Cross-lingual Document Similarity through Language-specific Concept Hierarchies",
         "doi":"10.1145\/3360901.3364444",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3360901.3364444"
+        "primary_location":null
     },
     {
         "title":"PaCTS 1.0: A Crowdsourced Reporting Standard for Paleoclimate Data",
         "doi":"10.1029\/2019PA003632",
-        "primary_location":"https:\/\/agupubs.onlinelibrary.wiley.com\/doi\/pdfdirect\/10.1029\/2019PA003632"
+        "primary_location":null
     },
     {
         "title":"Semantic Modelling of Plans and Execution Traces for Enhancing Transparency of IoT Systems",
         "doi":"10.1109\/IOTSMS48152.2019.8939260",
-        "primary_location":"https:\/\/doi.org\/10.1109\/iotsms48152.2019.8939260"
+        "primary_location":null
     },
     {
         "title":"T2WML table to wikidata mapping language",
         "doi":"10.1145\/3360901.3364448",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3360901.3364448"
+        "primary_location":null
     },
     {
         "title":"Participation of women in doctorate, research, innovation, and management activities at Universidad Polit\u00e9cnica de Madrid: analysis of the decade 2006\u20132016",
         "doi":"10.1007\/s11192-019-03179-9",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s11192-019-03179-9"
+        "primary_location":null
     },
     {
         "title":"OKG-soft: An open knowledge graph with machine readable scientific software metadata",
         "doi":"10.1109\/eScience.2019.00046",
-        "primary_location":"https:\/\/doi.org\/10.1109\/escience.2019.00046"
+        "primary_location":null
     },
     {
         "title":"Ontological Model for the Semantic Description of Syllabuses",
         "doi":"10.1145\/3357419.3357442",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3357419.3357442"
+        "primary_location":null
     },
     {
         "title":"Why are ontologies not reused across the same domain?",
         "doi":"10.1016\/j.websem.2018.12.010",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2018.12.010"
+        "primary_location":null
     },
     {
         "title":"Ontology evolution for personalised and adaptive activity recognition",
         "doi":"10.1049\/iet-wss.2018.5209",
-        "primary_location":"https:\/\/doi.org\/10.1049\/iet-wss.2018.5209"
+        "primary_location":null
     },
     {
         "title":"Automating ontology engineering support activities with OnToology",
         "doi":"10.1016\/j.websem.2018.09.003",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2018.09.003"
+        "primary_location":null
     },
     {
         "title":"Closing the awareness gap between it practice and it law",
         "doi":"10.3233\/FAIA190006",
-        "primary_location":"https:\/\/doi.org\/10.3233\/FAIA190006"
+        "primary_location":null
     },
     {
         "title":"Language resources as linked data for the legal domain",
         "doi":"10.3233\/FAIA190019",
-        "primary_location":"https:\/\/doi.org\/10.3233\/FAIA190019"
+        "primary_location":null
     },
     {
         "title":"Closing the Awareness Gap Between IT Practice and IT Law - Critical Legal Positivism Applied in the Domain of IT Law",
@@ -1837,27 +1822,27 @@
     {
         "title":"Language Resources as Linked Data for the Legal Domain",
         "doi":null,
-        "primary_location":"https:\/\/doi.org\/10.3233\/FAIA190019"
+        "primary_location":null
     },
     {
         "title":"Spanish Corpora for Sentiment Analysis: a Survey",
         "doi":"10.1007\/s10579-019-09470-8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10579-019-09470-8"
+        "primary_location":null
     },
     {
         "title":"Taxi dispatching strategies with compensations",
         "doi":"10.1016\/j.eswa.2019.01.001",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.eswa.2019.01.001"
+        "primary_location":null
     },
     {
         "title":"Retraction notice to \u201cApplying case-based reasoning in social computing to transform colors into music\u201d (Engineering Applications of Artificial Intelligence (2018) 72 (1\u20139), (S0952197618300563), (10.1016\/j.engappai.2018.03.007))",
         "doi":"10.1016\/j.engappai.2019.03.007",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.engappai.2019.03.007"
+        "primary_location":null
     },
     {
         "title":"VICINITY: IoT Semantic Interoperability Based on the Web of Things",
         "doi":"10.1109\/DCOSS.2019.00061",
-        "primary_location":"https:\/\/doi.org\/10.1109\/dcoss.2019.00061"
+        "primary_location":null
     },
     {
         "title":"Prediction and Decision-Making in Intelligent Environments Supported by Knowledge Graphs, A Systematic Review",
@@ -1867,17 +1852,17 @@
     {
         "title":"Calculating Heavy-Duty truck energy and fuel consumption using correlation formulas derived from vecto simulations",
         "doi":"10.4271\/2019-01-1278",
-        "primary_location":"https:\/\/doi.org\/10.4271\/2019-01-1278"
+        "primary_location":null
     },
     {
         "title":"A generalized component efficiency and Input-Data generation model for creating Fleet-Representative vehicle simulation cases in vecto",
         "doi":"10.4271\/2019-01-1280",
-        "primary_location":"https:\/\/doi.org\/10.4271\/2019-01-1280"
+        "primary_location":null
     },
     {
         "title":"An intelligent interface for integrating climate, hydrology, agriculture, and socioeconomic models",
         "doi":"10.1145\/3308557.3308711",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3308557.3308711"
+        "primary_location":null
     },
     {
         "title":"A sustainable process and toolbox for geographical linked data generation and publication: a case study with BTN100",
@@ -1887,17 +1872,17 @@
     {
         "title":"Toward proactive social inclusion powered by machine learning",
         "doi":"10.1007\/s10115-018-1230-x",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10115-018-1230-x"
+        "primary_location":null
     },
     {
         "title":"Enhancing energy management at district and building levels via an EM-KPI ontology",
         "doi":"10.1016\/j.autcon.2018.12.010",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.autcon.2018.12.010"
+        "primary_location":null
     },
     {
         "title":"A framework for connecting two interoperability universes: OGC Web Feature Services and Linked Data",
         "doi":"10.1111\/tgis.12496",
-        "primary_location":"https:\/\/doi.org\/10.1111\/tgis.12496"
+        "primary_location":null
     },
     {
         "title":"ETSI TS 103 410-3. SmartM2M; Smart Appliances extension to SA",
@@ -1917,17 +1902,17 @@
     {
         "title":"Best practices for publishing, retrieving, and using spatial data on the web",
         "doi":"10.3233\/SW-180305",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-180305"
+        "primary_location":null
     },
     {
         "title":"Completeness and consistency analysis for evolving knowledge bases",
         "doi":"10.1016\/j.websem.2018.11.004",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.websem.2018.11.004"
+        "primary_location":null
     },
     {
         "title":"The modular SSN ontology: A joint W3C and OGC standard specifying the semantics of sensors, observations, sampling, and actuation",
         "doi":"10.3233\/SW-180320",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-180320"
+        "primary_location":null
     },
     {
         "title":"Ontological Representation of Smart City Data: From Devices to Cities",
@@ -1937,22 +1922,22 @@
     {
         "title":"CORAL: A corpus of ontological requirements annotated with lexico-syntactic patterns",
         "doi":"10.1007\/978-3-030-21348-0_29",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-21348-0_29"
+        "primary_location":null
     },
     {
         "title":"Supervising attention in an e-learning system",
         "doi":"10.1007\/978-3-030-01746-0_46",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-01746-0_46"
+        "primary_location":null
     },
     {
         "title":"Towards a Knowledge Graph Based Platform for Public Procurement",
         "doi":"10.1007\/978-3-030-14401-2_29",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-14401-2_29"
+        "primary_location":null
     },
     {
         "title":"Conformance Test Cases for the RDF Mapping Language (RML)",
         "doi":"10.1007\/978-3-030-21395-4_12",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-21395-4_12"
+        "primary_location":null
     },
     {
         "title":"Themis: A tool for validating ontologies through requirements",
@@ -2007,102 +1992,102 @@
     {
         "title":"Towards an Ontology for Public Procurement Based on the Open Contracting Data Standard",
         "doi":"10.1007\/978-3-030-29374-1_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-29374-1_19"
+        "primary_location":null
     },
     {
         "title":"SAD Generator: Eating Our Own Dog Food to Generate KGs and Websites for Academic Events",
         "doi":"10.1007\/978-3-030-32327-1_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-32327-1_19"
+        "primary_location":null
     },
     {
         "title":"Towards Blockchain and Semantic Web",
         "doi":"10.1007\/978-3-030-36691-9_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-36691-9_19"
+        "primary_location":null
     },
     {
         "title":"Towards human-guided machine learning",
         "doi":"10.1145\/3301275.3302324",
-        "primary_location":"https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3301275.3302324"
+        "primary_location":null
     },
     {
         "title":"A quality assessment approach for evolving knowledge bases",
         "doi":"10.3233\/SW-180324",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-180324"
+        "primary_location":null
     },
     {
         "title":"Ontology-driven semantic unified modelling for concurrent activity recognition (OSCAR)",
         "doi":"10.1007\/s11042-018-6318-5",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s11042-018-6318-5"
+        "primary_location":null
     },
     {
         "title":"Extension of the BIdo ontology to represent scientific production",
         "doi":"10.1145\/3318396.3318422",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3318396.3318422"
+        "primary_location":null
     },
     {
         "title":"Automatic music generation by deep learning",
         "doi":"10.1007\/978-3-319-94649-8_34",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-94649-8_34"
+        "primary_location":null
     },
     {
         "title":"Social services diagnosis by deep learning",
         "doi":"10.1007\/978-3-319-94649-8_38",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-94649-8_38"
+        "primary_location":null
     },
     {
         "title":"Similar Terms Grouping Yields Faster Terminological Saturation",
         "doi":"10.1007\/978-3-030-13929-2_3",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-13929-2_3"
+        "primary_location":null
     },
     {
         "title":"Using the SPAR ontology network to represent the scientific production of a university: A case study",
         "doi":"10.1007\/978-3-030-16187-3_20",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-16187-3_20"
+        "primary_location":null
     },
     {
         "title":"An intelligent and autoadaptive system of virtual identities based on deep learning for the analysis of online advertising networks",
         "doi":"10.1007\/978-3-030-24299-2_26",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-24299-2_26"
+        "primary_location":null
     },
     {
         "title":"Linked Democracy Foundations, Tools, and Applications Preface",
         "doi":"10.1007\/978-3-030-13363-4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-13363-4"
+        "primary_location":null
     },
     {
         "title":"TempCourt: evaluation of temporal taggers on a new corpus of court decisions",
         "doi":"10.1017\/S0269888919000195",
-        "primary_location":"https:\/\/doi.org\/10.1017\/s0269888919000195"
+        "primary_location":null
     },
     {
         "title":"ContractFrames: Bridging the Gap Between Natural Language and Logics in Contract Law",
         "doi":"10.1007\/978-3-030-31605-1_9",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-31605-1_9"
+        "primary_location":null
     },
     {
         "title":"What are the parameters that affect the construction of a knowledge graph?",
         "doi":"10.1007\/978-3-030-33246-4_43",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-33246-4_43"
+        "primary_location":null
     },
     {
         "title":"How to Validate Ontologies with Themis",
         "doi":"10.1007\/978-3-030-32327-1_11",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-32327-1_11"
+        "primary_location":null
     },
     {
         "title":"PSM-Flow: Probabilistic Subgraph Mining for Discovering Reusable Fragments in Workflows",
         "doi":"10.1109\/WI.2018.00-93",
-        "primary_location":"https:\/\/doi.org\/10.1109\/wi.2018.00-93"
+        "primary_location":null
     },
     {
         "title":"Towards Automated Hypothesis Testing in Neuroscience",
         "doi":"10.1007\/978-3-030-33752-0_18",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-33752-0_18"
+        "primary_location":null
     },
     {
         "title":"Automatic enrichment of terminological resources: The IATE RDF example",
         "doi":null,
-        "primary_location":"https:\/\/aran.library.nuigalway.ie\/bitstream\/10379\/14881\/1\/automatic-enrichment-terminological_final.pdf"
+        "primary_location":null
     },
     {
         "title":"Optimizing automated term extraction for terminological saturation measurement",
@@ -2122,7 +2107,7 @@
     {
         "title":"Videogames: a lexical approach",
         "doi":null,
-        "primary_location":"https:\/\/dialnet.unirioja.es\/servlet\/articulo?codigo=7144227"
+        "primary_location":null
     },
     {
         "title":"GraphQL servers generation from R2RML mappings with morph-GraphQL (DEMO)",
@@ -2152,7 +2137,7 @@
     {
         "title":"Building up communication skills: professional and academic training for engineers",
         "doi":"9788417969059",
-        "primary_location":"https:\/\/dialnet.unirioja.es\/servlet\/libro?codigo=825965"
+        "primary_location":null
     },
     {
         "title":"Semantic workflows for benchmark challenges: Enhancing comparability, reusability and reproducibility",
@@ -2167,7 +2152,7 @@
     {
         "title":"Semantic workflows and machine learning for the assessment of carbon storage by urban trees",
         "doi":"10.48550\/arxiv.2009.10263",
-        "primary_location":"https:\/\/arxiv.org\/abs\/2009.10263"
+        "primary_location":null
     },
     {
         "title":"WDPlus: Leveraging wikidata to link and extend tabular data",
@@ -2177,7 +2162,7 @@
     {
         "title":"Linking abstract plans of scientific experiments to their corresponding execution traces",
         "doi":null,
-        "primary_location":"https:\/\/aura.abdn.ac.uk\/bitstream\/2164\/13408\/1\/Markovic_LinkingAbstractPlans_VOR.pdf"
+        "primary_location":null
     },
     {
         "title":"Ontological representation of smart city data: From devices to cities",
@@ -2187,12 +2172,12 @@
     {
         "title":"CORAL: a corpus of ontological requirements annotated with lexico-syntactic patterns",
         "doi":"10.1007\/978-3-030-21348-0_29",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-21348-0_29"
+        "primary_location":null
     },
     {
         "title":"VICINITY: IoT semantic interoperability based on the web of things",
         "doi":"10.1109\/dcoss.2019.00061",
-        "primary_location":"https:\/\/doi.org\/10.1109\/dcoss.2019.00061"
+        "primary_location":null
     },
     {
         "title":"Linked Open Terms (LOT) Methodology",
@@ -2202,12 +2187,12 @@
     {
         "title":"Extension of the BiDO ontology to represent scientific production",
         "doi":"10.1145\/3318396.3318422",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3318396.3318422"
+        "primary_location":null
     },
     {
         "title":"Large-Scale Semantic Exploration of Scientific Literature using Topic-based Hashing Algorithms",
         "doi":"10.3233\/sw-200373",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-200373"
+        "primary_location":null
     },
     {
         "title":"Legal document retrieval across languages: topic hierarchies based on synsets",
@@ -2217,7 +2202,7 @@
     {
         "title":"Towards blockchain and semantic web",
         "doi":"10.1007\/978-3-030-36691-9_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-36691-9_19"
+        "primary_location":null
     },
     {
         "title":"Ontolog\u00edas, Datos Enlazados (Linked Data) y",
@@ -2227,12 +2212,12 @@
     {
         "title":"Semantic technologies and interoperability in the built environment",
         "doi":"10.3233\/sw-180321",
-        "primary_location":"https:\/\/content.iospress.com:443\/download\/semantic-web\/sw321?id=semantic-web%2Fsw321"
+        "primary_location":null
     },
     {
         "title":"Proceedings of the 7th Linked Data in Architecture and Construction Workshop (LDAC2019)",
         "doi":null,
-        "primary_location":"https:\/\/hal.archives-ouvertes.fr\/hal-03165225"
+        "primary_location":null
     },
     {
         "title":"Enhancing the maintainability of the Bio2RDF project using declarative mappings",
@@ -2242,17 +2227,17 @@
     {
         "title":"Semantic software metadata for workflow exploration and evolution",
         "doi":"10.1109\/eScience.2018.00132",
-        "primary_location":"https:\/\/doi.org\/10.1109\/escience.2018.00132"
+        "primary_location":null
     },
     {
         "title":"Models to represent linguistic linked data",
         "doi":"10.1017\/S1351324918000347",
-        "primary_location":"https:\/\/doi.org\/10.1017\/s1351324918000347"
+        "primary_location":null
     },
     {
         "title":"Modelling a smart environment for nonintrusive analysis of attention in the workplace",
         "doi":"10.1111\/exsy.12275",
-        "primary_location":"https:\/\/doi.org\/10.1111\/exsy.12275"
+        "primary_location":null
     },
     {
         "title":"Polypharmacy and drug-drug interactions in HIV-infected subjects in the region of Madrid (Spain): a population-based study",
@@ -2262,42 +2247,42 @@
     {
         "title":"A Secured and Trusted Demand Response system based on Blockchain technologies",
         "doi":"10.1109\/INISTA.2018.8466303",
-        "primary_location":"https:\/\/doi.org\/10.1109\/inista.2018.8466303"
+        "primary_location":null
     },
     {
         "title":"Using machine learning to optimize parallelism in big data applications",
         "doi":"10.1016\/j.future.2017.07.003",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.future.2017.07.003"
+        "primary_location":null
     },
     {
         "title":"Keeping up with storage: Decentralized, write-enabled dynamic geo-replication",
         "doi":"10.1016\/j.future.2017.06.009",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.future.2017.06.009"
+        "primary_location":null
     },
     {
         "title":"MAS: A Corpus of Tweets for Marketing in Spanish",
         "doi":"10.1007\/978-3-319-98192-5_53",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-98192-5_53"
+        "primary_location":null
     },
     {
         "title":"KerA: Scalable data ingestion for stream processing",
         "doi":"10.1109\/ICDCS.2018.00152",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icdcs.2018.00152"
+        "primary_location":null
     },
     {
         "title":"SLoG: Large-scale logging middleware for HPC and big data convergence",
         "doi":"10.1109\/ICDCS.2018.00156",
-        "primary_location":"https:\/\/doi.org\/10.1109\/icdcs.2018.00156"
+        "primary_location":null
     },
     {
         "title":"T\u00fdrFS: Increasing small files access performance with dynamic metadata replication",
         "doi":"10.1109\/CCGRID.2018.00072",
-        "primary_location":"https:\/\/doi.org\/10.1109\/ccgrid.2018.00072"
+        "primary_location":null
     },
     {
         "title":"Applying case-based reasoning in social computing to transform colors into music",
         "doi":"10.1016\/j.engappai.2018.03.007",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.engappai.2018.03.007"
+        "primary_location":null
     },
     {
         "title":"Smart Waste Collection System with Low Consumption LoRaWAN Nodes and Route Optimization",
@@ -2307,22 +2292,22 @@
     {
         "title":"Design And Implementation Of A Low-Cost Universal Control For Intelligent Electric Wheelchairs",
         "doi":"10.1109\/TLA.2018.8408424",
-        "primary_location":"https:\/\/doi.org\/10.1109\/tla.2018.8408424"
+        "primary_location":null
     },
     {
         "title":"Predicting incorrect mappings: A data-driven approach applied to DBpedia",
         "doi":"10.1145\/3167132.3167164",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3167132.3167164"
+        "primary_location":null
     },
     {
         "title":"RDF shape induction using knowledge base profiling",
         "doi":"10.1145\/3167132.3167341",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3167132.3167341"
+        "primary_location":null
     },
     {
         "title":"Relationship recommender system in a business and employment-oriented social network",
         "doi":"10.1016\/j.ins.2017.12.050",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.ins.2017.12.050"
+        "primary_location":null
     },
     {
         "title":"Linked Democracy.Linked Democracy",
@@ -2332,7 +2317,7 @@
     {
         "title":"Drivers, standards and platforms for the IoT: Towards a digital VICINITY",
         "doi":"10.1109\/IntelliSys.2017.8324287",
-        "primary_location":"https:\/\/doi.org\/10.1109\/intellisys.2017.8324287"
+        "primary_location":null
     },
     {
         "title":"A Context-Aware Indoor Air Quality System for Sudden Infant Death Syndrome Prevention",
@@ -2342,22 +2327,22 @@
     {
         "title":"Agent-based tool to reduce the maintenance cost of energy distribution networks",
         "doi":"10.1007\/s10115-017-1120-7",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s10115-017-1120-7"
+        "primary_location":null
     },
     {
         "title":"Students' Evaluation of a Virtual World for Procedural Training in a Tertiary-Education Course",
         "doi":"10.1177\/0735633117706047",
-        "primary_location":"https:\/\/doi.org\/10.1177\/0735633117706047"
+        "primary_location":null
     },
     {
         "title":"Association between CFH, CFB, ARMS2, SERPINF1, VEGFR1 and VEGF polymorphisms and anatomical and functional response to ranibizumab treatment in neovascular age-related macular degeneration",
         "doi":"10.1111\/aos.13519",
-        "primary_location":"https:\/\/onlinelibrary.wiley.com\/doi\/pdfdirect\/10.1111\/aos.13519"
+        "primary_location":null
     },
     {
         "title":"Cross-Evaluation of Automated Term Extraction Tools by Measuring Terminological Saturation",
         "doi":"10.1007\/978-3-319-76168-8_7",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-76168-8_7"
+        "primary_location":null
     },
     {
         "title":"The Influence of the Order of Adding Documents to Datasets on Terminological Saturation",
@@ -2372,7 +2357,7 @@
     {
         "title":"Neural networks in distributed computing and artificial intelligence",
         "doi":"10.1016\/j.neucom.2017.06.022",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.neucom.2017.06.022"
+        "primary_location":null
     },
     {
         "title":"Multi-Agent System for Demand Prediction and Trip Visualization in Bike Sharing Systems",
@@ -2387,137 +2372,137 @@
     {
         "title":"Predicting the risk of suffering chronic social exclusion with machine learning",
         "doi":"10.1007\/978-3-319-62410-5_16",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-62410-5_16"
+        "primary_location":null
     },
     {
         "title":"A guideline for reporting experimental protocols in life sciences",
         "doi":"10.7717\/peerj.4795",
-        "primary_location":"https:\/\/peerj.com\/articles\/4795.pdf"
+        "primary_location":null
     },
     {
         "title":"A Comprehensive Quality Model for Linked Data",
         "doi":"10.3233\/SW-170267",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-170267"
+        "primary_location":null
     },
     {
         "title":"FMonE: A Flexible Monitoring Solution at the Edge",
         "doi":"10.1155\/2018\/2068278",
-        "primary_location":"https:\/\/doi.org\/10.1155\/2018\/2068278"
+        "primary_location":null
     },
     {
         "title":"The apertium bilingual dictionaries on the web of data",
         "doi":"10.3233\/SW-170258",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-170258"
+        "primary_location":null
     },
     {
         "title":"Dealing with Demand in Electric Grids with an Adaptive Consumption Management Platform",
         "doi":"10.1155\/2018\/4012740",
-        "primary_location":"http:\/\/downloads.hindawi.com\/journals\/complexity\/2018\/4012740.pdf"
+        "primary_location":null
     },
     {
         "title":"IoT Approaches for Distributed Computing",
         "doi":"10.1155\/2018\/9741053",
-        "primary_location":"http:\/\/downloads.hindawi.com\/journals\/wcmc\/2018\/9741053.pdf"
+        "primary_location":null
     },
     {
         "title":"Classification of retinal vessels using a collaborative agent-based architecture",
         "doi":"10.3233\/AIC-180772",
-        "primary_location":"https:\/\/doi.org\/10.3233\/aic-180772"
+        "primary_location":null
     },
     {
         "title":"Assess and Enhancing Attention in Learning Activities",
         "doi":"10.1007\/978-3-319-73210-7_93",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-73210-7_93"
+        "primary_location":null
     },
     {
         "title":"Machine learning-based query augmentation for SPARQL endpoints",
         "doi":"10.5220\/0006925300570067",
-        "primary_location":"https:\/\/doi.org\/10.5220\/0006925300570067"
+        "primary_location":null
     },
     {
         "title":"Assigning Creative Commons Licenses to Research Metadata: Issues and Cases",
         "doi":"10.1007\/978-3-030-00178-0_16",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-00178-0_16"
+        "primary_location":null
     },
     {
         "title":"Fuzzy semantic labeling of semi-structured numerical datasets",
         "doi":"10.1007\/978-3-030-03667-6_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03667-6_2"
+        "primary_location":null
     },
     {
         "title":"A SAREF extension for semantic interoperability in the industry and manufacturing domain",
         "doi":"10.1002\/9781119564034.ch25",
-        "primary_location":"https:\/\/doi.org\/10.1002\/9781119564034.ch25"
+        "primary_location":null
     },
     {
         "title":"PROFILES & DATA: SEARCH \u2013 International Workshop on Profiling & Searching Data on the Web Chairs\u2019 Welcome",
         "doi":"10.1145\/3184558.3192316",
-        "primary_location":"http:\/\/dl.acm.org\/ft_gateway.cfm?id=3192316&type=pdf"
+        "primary_location":null
     },
     {
         "title":"Semantic Discovery in the Web of Things",
         "doi":"10.1007\/978-3-319-74433-9_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-74433-9_2"
+        "primary_location":null
     },
     {
         "title":"Characterize a human-robot interaction: Robot personal assistance",
         "doi":"10.1007\/978-3-319-62530-0_8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-62530-0_8"
+        "primary_location":null
     },
     {
         "title":"DBtravel: A tourism-oriented semantic graph",
         "doi":"10.1007\/978-3-030-03056-8_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_19"
+        "primary_location":null
     },
     {
         "title":"Type prediction of RDF knowledge graphs using binary classifiers with structural data",
         "doi":"10.1007\/978-3-030-03056-8_27",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_27"
+        "primary_location":null
     },
     {
         "title":"Publishing tourism statistics as linked data a case study of Sri Lanka",
         "doi":"10.1007\/978-3-030-03056-8_17",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_17"
+        "primary_location":null
     },
     {
         "title":"Knowledge base evolution analysis: A case study in the tourism domain",
         "doi":"10.1007\/978-3-030-03056-8_26",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_26"
+        "primary_location":null
     },
     {
         "title":"Linked-Fiestas: A knowledge graph to promote cultural tourism in Spain",
         "doi":"10.1007\/978-3-030-03056-8_18",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_18"
+        "primary_location":null
     },
     {
         "title":"Reuse and Reengineering of Non-ontological Resources in the Legal Domain",
         "doi":"10.1007\/978-3-030-00178-0_24",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-00178-0_24"
+        "primary_location":null
     },
     {
         "title":"A Linked Data Terminology for Copyright Based on Ontolex-Lemon",
         "doi":"10.1007\/978-3-030-00178-0_28",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-00178-0_28"
+        "primary_location":null
     },
     {
         "title":"Requirements behaviour analysis for ontology testing",
         "doi":"10.1007\/978-3-030-03667-6_8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03667-6_8"
+        "primary_location":null
     },
     {
         "title":"Inferring types on large datasets applying ontology class hierarchy classifiers: The dbpedia case",
         "doi":"10.1007\/978-3-030-03667-6_21",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03667-6_21"
+        "primary_location":null
     },
     {
         "title":"CREATING AND IMPROVING EDUCATIONAL MATERIALS: AN APPROACH BASED ON CROWDSOURCING",
         "doi":"10.21125\/iceri.2018.1854",
-        "primary_location":"https:\/\/doi.org\/10.21125\/iceri.2018.1854"
+        "primary_location":null
     },
     {
         "title":"Reliability and correlation analysis of computed methods to convert conventional 2D radiological hindfoot measurements to a 3D setting using weightbearing CT",
         "doi":"10.1007\/s11548-018-1727-5",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s11548-018-1727-5"
+        "primary_location":null
     },
     {
         "title":"LawORDate: A service for distinguishing legal references from temporal expressions",
@@ -2547,7 +2532,7 @@
     {
         "title":"Spanish corpus of tweets for marketing",
         "doi":"10.1007\/978-3-319-98192-5_53",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-319-98192-5_53"
+        "primary_location":null
     },
     {
         "title":"SlideWiki - Towards a collaborative and accessible platform for slide presentations",
@@ -2597,22 +2582,22 @@
     {
         "title":"DBtravel: A Tourism-Oriented Semantic Graph",
         "doi":"10.1007\/978-3-030-03056-8_19",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_19"
+        "primary_location":null
     },
     {
         "title":"Machine Learning-based Query Augmentation for SPARQL Endpoints",
         "doi":"10.5220\/0006925300570067",
-        "primary_location":"https:\/\/doi.org\/10.5220\/0006925300570067"
+        "primary_location":null
     },
     {
         "title":"Inferring Types on Large Datasets Applying Ontology Class Hierarchy Classifiers: The DBpedia Case",
         "doi":"10.1007\/978-3-030-03667-6_21",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03667-6_21"
+        "primary_location":null
     },
     {
         "title":"Publishing Tourism Statistics as Linked Data a Case Study of Sri Lanka",
         "doi":"10.1007\/978-3-030-03056-8_17",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-030-03056-8_17"
+        "primary_location":null
     },
     {
         "title":"Extending the SAREF ontology for building devices and topology",
@@ -2647,7 +2632,7 @@
     {
         "title":"Advances in Pattern-Based Ontology Engineering",
         "doi":"10.3233\/ssw51",
-        "primary_location":"https:\/\/doi.org\/10.3233\/ssw51"
+        "primary_location":null
     },
     {
         "title":"OWL: Experiences and Directions \u2013 Reasoner Evaluation (13th International Workshop, OWLED 2016, and 5th International Workshop, ORE 2016, Bologna, Italy, November 20, 2016, Revised Selected Papers)",
@@ -2657,17 +2642,17 @@
     {
         "title":"Linked Open Vocabularies (LOV): a gateway to reusable semantic vocabularies on the",
         "doi":"10.3233\/sw-160213",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-160213"
+        "primary_location":null
     },
     {
         "title":"Efficient Clustering from Distributions over Topics",
         "doi":"10.1145\/3148011.3148019",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3148011.3148019"
+        "primary_location":null
     },
     {
         "title":"Distributing Text Mining tasks with librAIry",
         "doi":"10.1145\/3103010.3121040",
-        "primary_location":"https:\/\/doi.org\/10.1145\/3103010.3121040"
+        "primary_location":null
     },
     {
         "title":"Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome",
@@ -2677,126 +2662,126 @@
     {
         "title":"Review of the state of the art: Discovering and Associating Semantics to Tags in Folksonomies",
         "doi":"10.1017\/S026988891100018X",
-        "primary_location":"https:\/\/doi.org\/10.1017\/s026988891100018x"
+        "primary_location":null
     },
     {
         "title":"Ontology Development by Reuse",
         "doi":"10.1007\/978-3-642-24794-1_7",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-24794-1_7"
+        "primary_location":null
     },
     {
         "title":"Integrating WordNet and Wiktionary with lemon",
         "doi":"10.1007\/978-3-642-28249-2_3",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-28249-2_3"
+        "primary_location":null
     },
     {
         "title":"Ontology Requirements Specification",
         "doi":"10.1007\/978-3-642-24794-1_5",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-24794-1_5"
+        "primary_location":null
     },
     {
         "title":"The NeOn Methodology for Ontology Engineering",
         "doi":"10.1007\/978-3-642-24794-1_2",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-24794-1_2"
+        "primary_location":null
     },
     {
         "title":"Introduction: Ontology Engineering in a Networked World",
         "doi":"10.1007\/978-3-642-24794-1_1",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-24794-1_1"
+        "primary_location":null
     },
     {
         "title":"Scheduling Ontology Engineering Projects Using gOntt",
         "doi":"10.1007\/978-3-642-24794-1_14",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-642-24794-1_14"
+        "primary_location":null
     },
     {
         "title":"A Semantically Enhanced UPnP Control Point for Sharing Multimedia Content",
         "doi":"10.1109\/MIC.2011.83",
-        "primary_location":"https:\/\/doi.org\/10.1109\/mic.2011.83"
+        "primary_location":null
     },
     {
         "title":"The landscape of multimedia ontologies in the last decade",
         "doi":"10.1007\/s11042-011-0905-z",
-        "primary_location":"https:\/\/doi.org\/10.1007\/s11042-011-0905-z"
+        "primary_location":null
     },
     {
         "title":"Five Challenges for the Semantic Sensor Web",
         "doi":"10.3233\/SW-2010-0005",
-        "primary_location":"https:\/\/doi.org\/10.3233\/sw-2010-0005"
+        "primary_location":null
     },
     {
         "title":"Developing Ontologies withing Decentralized Settings",
         "doi":"10.1007\/978-1-4419-5908-9_4",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-1-4419-5908-9_4"
+        "primary_location":null
     },
     {
         "title":"A framework and computer system for knowledge-level acquisition, representation, and reasoning with process knowledge",
         "doi":"10.1016\/j.ijhcs.2010.05.004",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.ijhcs.2010.05.004"
+        "primary_location":null
     },
     {
         "title":"A Tool Suite to Enable Web Designers, Web Application Developers and End-users to Handle Semantic Data",
         "doi":"10.4018\/jswis.2010070103",
-        "primary_location":"https:\/\/doi.org\/10.4018\/jswis.2010070103"
+        "primary_location":null
     },
     {
         "title":"A Contribution-based Framework for the Creation of Semantically-enabled Web Applications",
         "doi":"10.1016\/j.ins.2009.07.004",
-        "primary_location":"https:\/\/doi.org\/10.1016\/j.ins.2009.07.004"
+        "primary_location":null
     },
     {
         "title":"Semantic Web-enabled Protocol Mediation for the Logistics Domain",
         "doi":"10.4018\/978-1-60566-066-0.ch004",
-        "primary_location":"https:\/\/doi.org\/10.4018\/978-1-60566-066-0.ch004"
+        "primary_location":null
     },
     {
         "title":"Semantic Content Mediation and Acquisition: The Challenge for Semantic e-Business Solutions",
         "doi":"10.4018\/978-1-59904-192-6",
-        "primary_location":"https:\/\/doi.org\/10.4018\/978-1-59904-192-6"
+        "primary_location":null
     },
     {
         "title":"Architectural Patterns for the Semantic Grid",
         "doi":"10.1007\/978-0-387-37831-2_8",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-0-387-37831-2_8"
+        "primary_location":null
     },
     {
         "title":"A Layered Model for Building Ontology Translation Systems",
         "doi":"10.4018\/978-1-59904-426-2",
-        "primary_location":"https:\/\/doi.org\/10.4018\/978-1-59904-426-2"
+        "primary_location":null
     },
     {
         "title":"Personal eBanking Solutions Based on Semantic Web Services",
         "doi":"10.1007\/978-3-540-37017-8_13",
-        "primary_location":"https:\/\/doi.org\/10.1007\/978-3-540-37017-8_13"
+        "primary_location":null
     },
     {
         "title":"Legal Ontologies for the spanish e-Government",
         "doi":"10.1007\/11881216_32",
-        "primary_location":"https:\/\/doi.org\/10.1007\/11881216_32"
+        "primary_location":null
     },
     {
         "title":"Ontology Based Document Annotation: Trends and Open Research Problems",
         "doi":"10.1504\/IJMSO.2006.008769",
-        "primary_location":"https:\/\/doi.org\/10.1504\/ijmso.2006.008769"
+        "primary_location":null
     },
     {
         "title":"A layered model for building ontology translation systems",
         "doi":"10.4018\/978-1-59904-426-2",
-        "primary_location":"https:\/\/doi.org\/10.4018\/978-1-59904-426-2"
+        "primary_location":null
     },
     {
         "title":"R2O, an extensible and semantically based database-to-ontology mapping language",
         "doi":"10.1007\/b106149",
-        "primary_location":"https:\/\/doi.org\/10.1007\/b106149"
+        "primary_location":null
     },
     {
         "title":"Reference Ontology and (ONTO)2 Agent: The Ontology Yellow pages",
         "doi":"10.1007\/PL00011649",
-        "primary_location":"https:\/\/doi.org\/10.1007\/pl00011649"
+        "primary_location":null
     },
     {
         "title":"Knowledge Maps: An Essential Technique for Conceptualization",
         "doi":"10.1016\/S0169-023X(99)00050-6",
-        "primary_location":"https:\/\/doi.org\/10.1016\/s0169-023x(99)00050-6"
+        "primary_location":null
     }
 ]

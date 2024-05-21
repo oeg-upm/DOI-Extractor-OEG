@@ -14,13 +14,22 @@ def get_primary_location_by_doi(name, doi):
                 landing_page_url = primary_location.get("landing_page_url")
                 pdf_url = primary_location.get("pdf_url")
                 
-                # Check if either landing_page_url or pdf_url ends with ".pdf"
-                if landing_page_url and landing_page_url.endswith(".pdf"):
-                    return landing_page_url, doi
-                elif pdf_url is not None:
-                    return pdf_url, doi
-                elif landing_page_url:
-                    return landing_page_url, doi
+                # Check both URLs for 'application/pdf' content type
+                if landing_page_url:
+                    checked_landing_page_url = check_pdf(landing_page_url)
+                    if checked_landing_page_url:
+                        print(f"Found PDF for {doi}: {checked_landing_page_url}")
+                        return checked_landing_page_url, doi
+
+                if pdf_url:
+                    checked_pdf_url = check_pdf(pdf_url)
+                    if checked_pdf_url:
+                        print(f"Found PDF for {doi}: {checked_pdf_url}")
+                        return checked_pdf_url, doi
+                    
+                else: 
+                    print(f"No PDF found for {doi}")
+                    return None ,doi
     else:
         return get_primary_location_by_title(name, doi)
 
@@ -52,13 +61,21 @@ def get_primary_location_by_title(name, doi, include_doi=False):
                 else:
                     doi = None
                 
-                # Check if either landing_page_url or pdf_url ends with ".pdf"
-                if landing_page_url and landing_page_url.endswith(".pdf"):
-                    return landing_page_url, doi
-                elif pdf_url is not None:
-                    return pdf_url, doi
-                elif landing_page_url:
-                    return landing_page_url, doi
+                # Check both URLs for 'application/pdf' content type
+                if landing_page_url:
+                    checked_landing_page_url = check_pdf(landing_page_url)
+                    if checked_landing_page_url:
+                        print(f"Found PDF for {name}: {checked_landing_page_url}")
+                        return checked_landing_page_url, doi
+
+                if pdf_url:
+                    checked_pdf_url = check_pdf(pdf_url)
+                    if checked_pdf_url:
+                        print(f"Found PDF for {name}: {checked_pdf_url}")
+                        return checked_pdf_url, doi
+                     
+                print(f"No PDF found for {name}")
+                return None ,doi
     return None, None
 
 
@@ -76,16 +93,18 @@ def add_primary_location_to_csv(csv_filename):
             page_url = get_primary_location_by_title(name, doi, include_doi=True)
             if page_url[1] is not None:
                 row["doi"] = page_url[1]
-                print(f"Searching in OpenAlex for DOI of {name}: {page_url[1]}")
         else:
             page_url = get_primary_location_by_doi(name, doi)
         
-        if page_url[0] is not None:
+        if page_url and page_url[0] is not None:
             row["primary_location"] = page_url[0]
-            print(f"Searching in OpenAlex for {name} \nFounded link:{page_url[0]}")
         else:
             row["primary_location"] = ""
-            print(f"Searching in OpenAlex for {name}: No primary location")
+            if doi:
+                print(f"No primary location for {doi}")
+            else:
+                if name:
+                    print(f"No primary location for {name}")  
         print("-----------------------------------------------------------------")
 
     new_columns = list(rows[0].keys())  
@@ -96,3 +115,15 @@ def add_primary_location_to_csv(csv_filename):
         writer = csv.DictWriter(file, quoting=csv.QUOTE_ALL, fieldnames=new_columns)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def check_pdf(url):
+        try:
+            response = requests.head(url, allow_redirects=True)
+            response.raise_for_status()
+            content_type = response.headers.get('Content-Type')
+            if content_type == 'application/pdf':
+                return url
+        except requests.exceptions.RequestException as e:
+            print(f"Error checking URL {url}: {e}")
+        return None
