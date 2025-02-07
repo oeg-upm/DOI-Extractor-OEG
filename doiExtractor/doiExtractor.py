@@ -26,7 +26,7 @@ def extract_doi(url_pagina, csv_file):
         if title:
             title = title.text.strip()
         else:
-            print("No title found")
+            title = "No title found"
 
         # Find all <p> elements in the class "card-text"
         card_texts = soup.find_all('p', class_='card-text')
@@ -34,23 +34,21 @@ def extract_doi(url_pagina, csv_file):
         doi_found = False  # Flag to indicate if DOI is found
         # Iterate over the found elements
         for card_text in card_texts:
-            # Search for "doi:"
-            doi_text = card_text.find('strong', string='doi:')
-            if doi_text:
-                # Check if there is text after "doi:"
-                next_sibling = doi_text.find_next_sibling(string=True)
-                if next_sibling and next_sibling.strip():
-                    # Extract DOI
-                    doi = next_sibling.strip()
-                    if doi.startswith('https://doi.org/'):
-                        doi = doi[len('https://doi.org/'):]  # Remove "https://doi.org/" from the beginning if present
-                    # Write the resulting DOI to the CSV file
-                    csv_file.writerow([title, doi])
-                    doi_found = True
-                else:
-                    csv_file.writerow([title, ""])
-                    doi_found = False
-                    
+            # Search for <strong> with text "DOI:"
+            doi_label = card_text.find('strong', string='DOI:')
+            if doi_label:
+                # The DOI is plain text after the <strong> element
+                doi = doi_label.next_sibling.strip()
+                if doi.startswith('https://doi.org/'):
+                    doi = doi[len('https://doi.org/'):]  # Remove "https://doi.org/" from the beginning if present
+                # Write the resulting DOI to the CSV file
+                csv_file.writerow([title, doi])
+                doi_found = True
+                break  # Exit the loop since we found the DOI
+
+        if not doi_found:
+            csv_file.writerow([title, "No DOI found"])
+        
         return doi_found  # Return if DOI is found or not
     else:
         print("Error loading the webpage:", response.status_code)
@@ -66,61 +64,46 @@ def search_papers(url, url_docs, csv_filename):
     with open(csv_filename, "w", newline='', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
         csv_writer.writerow(["title", "doi"])
-
-        total_publications = 0
-        publications_with_doi = 0
-
+        total_publications, publications_with_doi = 0, 0
         try:
-            # Wait until "Publicaciones" button is clickable
-            boton_publicaciones = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Publicaciones')]"))
+            boton_publicaciones = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable((By.XPATH, "//span[@title='Publicaciones']"))
             )
-
-            # Click on "Publicaciones" button
             boton_publicaciones.click()
-
-            # Wait for the webpage to load
             WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "style-rfTitle"))
             )
-
             while True:
-                # Extract HTML content of the page after the click
-                html_doc_despues_clic = driver.page_source
-
-                # Parse the HTML with Beautiful Soup
-                soup_despues_clic = BeautifulSoup(html_doc_despues_clic, 'html.parser')
-
-                # Extract DOI
-                spans_rfTitle = soup_despues_clic.find_all("span", class_="style-rfTitle")
+                soup = BeautifulSoup(driver.page_source, 'html.parser')
+                spans_rfTitle = soup.find_all("span", class_="style-rfTitle")
                 for span in spans_rfTitle:
-                    enlaces = span.find_all("a")
-                    for enlace in enlaces:
-                        fragmento_enlace = enlace["href"]
-                        url_completa = urllib.parse.urljoin(url_docs, fragmento_enlace)
+                    for enlace in span.find_all("a"):
+                        url_completa = urllib.parse.urljoin(url_docs, enlace["href"])
                         doi_found = extract_doi(url_completa, csv_writer)
                         total_publications += 1
                         if doi_found:
                             publications_with_doi += 1
-
-                # Go to the next page clicking on "Siguiente"
-                boton_siguiente = driver.find_element(By.XPATH, "//a[contains(text(), 'Siguiente')]")
-                if not boton_siguiente.is_enabled():
-                    break  # End if there are no more pages
-                boton_siguiente.click()
-
+                print(f"Processed page. Total: {total_publications}, With DOI: {publications_with_doi}")
+                try:
+                    boton_siguiente = WebDriverWait(driver, 10).until(
+                        EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Siguiente')]"))
+                    )
+                    if 'disabled' in boton_siguiente.get_attribute('class'):
+                        print("'Siguiente' button is disabled. No more pages.")
+                        break
+                    boton_siguiente.click()
+                    print("Navigating to next page...")
+                except:
+                    print("No more pages or 'Siguiente' button not found.")
+                    break
         except Exception as e:
-            print("An error occurred:", e)
+            print(f"An error occurred: {e}")
         finally:
             driver.quit()
-
-        # Calculate the percentage of publications with DOI
-        doi_percentage = (publications_with_doi / total_publications) * 100 if total_publications != 0 else 0
-
-        print("Total de Publicaciones:", total_publications)
-        print("URLs con DOI:", publications_with_doi)
-        print("Porcentaje de Publicaciones con DOI: {:.2f}%".format(doi_percentage))
-
+            print("WebDriver closed.")
+        doi_percentage = (publications_with_doi / total_publications) * 100 if total_publications else 0
+        print(f"Total Publications: {total_publications}, With DOI: {publications_with_doi}, DOI Percentage: {doi_percentage:.2f}%")
+        
 
 def remove_duplicates(csv_file):
     df = pd.read_csv(csv_file, quoting=csv.QUOTE_ALL)
